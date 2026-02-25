@@ -43,14 +43,14 @@ export default function SideNav() {
             <div className="nav-section">
                 <button className="section-heading" onClick={() => toggleSection('main')}>
                     <LayoutDashboard className="section-icon" />
-                    {/*<span>Grundbewegung an Geräten</span>*/}
+                    <span>Grundbewegung an Geräten</span>
                     {openSections.main ? <ChevronDown /> : <ChevronRight />}
                 </button>
 
                 {openSections.main && (
                     <ul className="nav-list">
                         <li>
-                            <a href="/Home" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
+                            <a href="/Bal" className={`nav-link ${isActive('/Bal') ? 'active' : ''}`}>
                                 <img src="/icons/beam.svg" alt="Schwebebalken Icon" className='nav-icon' />
                                 <span>Balancieren</span>
                             </a>
@@ -75,7 +75,7 @@ export default function SideNav() {
             <div className="nav-section">
                 <button className="section-heading" onClick={() => toggleSection('personal')}>
                     <LayoutDashboard className="section-icon" />
-                    {/*<span>Beweglichkeit, Kraft, Körperspannung</span>*/}
+                    <span>Beweglichkeit, Kraft, Körperspannung</span>
                     {openSections.personal ? <ChevronDown /> : <ChevronRight />}
                 </button>
 
