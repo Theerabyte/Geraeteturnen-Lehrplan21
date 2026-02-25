@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 function page() {
 
@@ -24,6 +24,13 @@ function page() {
 
   return (
     <div className="flex-container">
+      <div className="abme">
+        <h2>hoMe</h2>
+        <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
+          hoTextMe
+
+        </div>
+      </div>
       <div className="abme">
         <h2>hoMe</h2>
         <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
