@@ -11,15 +11,32 @@ function page() {
     setExpandedHobby(prev => (prev === alt ? null : alt));
   };
 
-  const hobbies = [
-    { src: "/hob/ba.jpg", alt: "ba", desc: "ba", resc: "bad" },
-    { src: "/hob/bu.jpg", alt: "bu", desc: "bu", resc: "bud" },
-    { src: "/hob/da.jpg", alt: "da", desc: "da", resc: "dad" },
-    { src: "/hob/ic.jpg", alt: "ic", desc: "ic", resc: "icd" },
-    { src: "/hob/dn.jpg", alt: "dn", desc: "dn", resc: "dnd" },
-    { src: "/hob/pc.png", alt: "pc", desc: "pc", resc: "pcd" },
-    { src: "/hob/bw.jpg", alt: "bw", desc: "bw", resc: "bwd" },
-    { src: "/hob/mu.png", alt: "mu", desc: "mu", resc: "mud" }
+  const step1 = [
+    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
+    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+  ];
+  
+  const step2 = [
+    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
+    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+  ];
+  
+  const step3 = [
+    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
+    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+  ];
+  
+  const step4 = [
+    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
+    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
   ];
 
   return (
@@ -36,27 +53,29 @@ function page() {
           </div>
         </div>
       </div>
+      <div className="flex-container">
+        <div className="abme">
+          <h2>InfoText: Geschichte</h2>
+          <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
+            Geschichte zum Ablauf / zur Bahn
+          </div>
+        </div>
+        <div className="abme">
+          <h2>InfoText: Material</h2>
+          <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
+            Materialliste & Anwendungsfall
+          </div>
+        </div>
+      </div>
       <details>
         <summary>Schritt 1</summary>
         <div className="flex-container">
-          <div className="abme">
-            <h2>InfoText</h2>
-            <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-              Text
-            </div>
-          </div>
-          <div className="abme">
-            <h2>InfoText</h2>
-            <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-              Text
-            </div>
-          </div>
           <div className="HnI">
-            <h2>InfoText</h2>
-            <h4>InfoText</h4>
+            <h2>InfoText: Übungen</h2>
+            {/* <h4>InfoText</h4> */}
             <br />
             <div className="pics">
-              {hobbies.map((hobby) => (
+              {step1.map((hobby) => (
                 <div className="responsive" key={hobby.alt} onClick={() => handleToggle(hobby.alt)}>
                   <div className="gallery">
                     {expandedHobby === hobby.alt ? (
@@ -80,31 +99,18 @@ function page() {
                 </div>
               ))}
             </div>
-            {/* <div className="clearfix"></div> */}
           </div>
         </div>
       </details>
       <details>
         <summary>Schritt 2</summary>
         <div className="flex-container">
-          <div className="abme">
-            <h2>InfoText</h2>
-            <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-              Text
-            </div>
-          </div>
-          <div className="abme">
-            <h2>InfoText</h2>
-            <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-              Text
-            </div>
-          </div>
           <div className="HnI">
-            <h2>InfoText</h2>
-            <h4>InfoText</h4>
+            <h2>InfoText: Übungen</h2>
+            {/* <h4>InfoText</h4> */}
             <br />
             <div className="pics">
-              {hobbies.map((hobby) => (
+              {step2.map((hobby) => (
                 <div className="responsive" key={hobby.alt} onClick={() => handleToggle(hobby.alt)}>
                   <div className="gallery">
                     {expandedHobby === hobby.alt ? (
@@ -128,31 +134,18 @@ function page() {
                 </div>
               ))}
             </div>
-            {/* <div className="clearfix"></div> */}
           </div>
         </div>
       </details>
       <details>
         <summary>Schritt 3</summary>
         <div className="flex-container">
-          <div className="abme">
-            <h2>InfoText</h2>
-            <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-              Text
-            </div>
-          </div>
-          <div className="abme">
-            <h2>InfoText</h2>
-            <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-              Text
-            </div>
-          </div>
           <div className="HnI">
-            <h2>InfoText</h2>
-            <h4>InfoText</h4>
+            <h2>InfoText: Übungen</h2>
+            {/* <h4>InfoText</h4> */}
             <br />
             <div className="pics">
-              {hobbies.map((hobby) => (
+              {step3.map((hobby) => (
                 <div className="responsive" key={hobby.alt} onClick={() => handleToggle(hobby.alt)}>
                   <div className="gallery">
                     {expandedHobby === hobby.alt ? (
@@ -176,31 +169,18 @@ function page() {
                 </div>
               ))}
             </div>
-            {/* <div className="clearfix"></div> */}
           </div>
         </div>
       </details>
       <details>
         <summary>Schritt 4</summary>
         <div className="flex-container">
-          <div className="abme">
-            <h2>InfoText</h2>
-            <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-              Text
-            </div>
-          </div>
-          <div className="abme">
-            <h2>InfoText</h2>
-            <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-              Text
-            </div>
-          </div>
           <div className="HnI">
-            <h2>InfoText</h2>
-            <h4>InfoText</h4>
+            <h2>InfoText: Übungen</h2>
+            {/* <h4>InfoText</h4> */}
             <br />
             <div className="pics">
-              {hobbies.map((hobby) => (
+              {step4.map((hobby) => (
                 <div className="responsive" key={hobby.alt} onClick={() => handleToggle(hobby.alt)}>
                   <div className="gallery">
                     {expandedHobby === hobby.alt ? (
@@ -224,7 +204,6 @@ function page() {
                 </div>
               ))}
             </div>
-            {/* <div className="clearfix"></div> */}
           </div>
         </div>
       </details>

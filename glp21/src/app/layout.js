@@ -1,7 +1,6 @@
 import "@/app/[styles]/globals.css";
 import NavL from "@/components/navL";
 import Nav from "@/components/nav";
-import Bav from "@/components/nav";
 
 export const metadata = {
   title: "Geräteturnen leichtgemacht",
@@ -19,7 +18,6 @@ export default function RootLayout({ children }) {
               {children}
             </main>
           </div>
-          {/* <Bav /> */}
         </div>
       </body>
     </html>
