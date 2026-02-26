@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
-import { ChevronDown, ChevronRight, LayoutDashboard, BicepsFlexed, Dumbbell } from 'lucide-react';
+import { ChevronDown, ChevronRight, LayoutDashboard, BicepsFlexed, Dumbbell, BriefcaseMedical } from 'lucide-react';
 
 export default function SideNav() {
     const pathname = usePathname();
@@ -31,7 +31,7 @@ export default function SideNav() {
     const isActive = (path) => pathname === path;
 
     return (
-        <aside className="sidenav">
+        <aside className="sidenav h-screen // or min-h-screen overflow-y-auto scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-gray-400 scrollbar-track-gray-100">
             <div className="sidenav-header">
                 <div className="logo-small">
                     <img src="/v3.png" alt="Logo" className="icon-small" />
@@ -50,21 +50,39 @@ export default function SideNav() {
                 {openSections.main && (
                     <ul className="nav-list">
                         <li>
-                            <a href="/Bal" className={`nav-link ${isActive('/Bal') ? 'active' : ''}`}>
+                            <a href="/Balancieren" className={`nav-link ${isActive('/Bal') ? 'active' : ''}`}>
                                 <img src="/icons/beam.svg" alt="Schwebebalken Icon" className='nav-icon' />
                                 <span>Balancieren</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/Home" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
+                            <a href="/Rollen-und-Drehen" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
                                 <img src="/icons/bars.svg" alt="Paralell-Barren Icon" className='nav-icon' />
                                 <span>Rollen & Drehen</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/Home" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
+                            <a href="/Schaukeln-und-Schwingen" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
                                 <img src="/icons/rings.svg" alt="Gymnastikringe Icon" className='nav-icon' />
                                 <span>Schaukeln & Schwingen</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Springen-Stuetzen-Klettern" className={`nav-link ${isActive('/Bal') ? 'active' : ''}`}>
+                                <img src="/icons/ladder.svg" alt="Leiter Icon" className='nav-icon' />
+                                <span>Springen, Stützen, Klettern</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Wagnis-und-Verantwortung" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
+                                <img src="/icons/love.svg" alt="Handherz Icon" className='nav-icon' />
+                                <span>Wagnis & Verantwortung</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/Helfen-Sichern-Kooperieren" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
+                                <BriefcaseMedical alt="Medizinkoffer" className='nav-icon' />
+                                <span>Helfen, Sichern, Kooperieren</span>
                             </a>
                         </li>
                     </ul>
@@ -82,13 +100,13 @@ export default function SideNav() {
                 {openSections.personal && (
                     <ul className="nav-list">
                         <li>
-                            <a href="/Home" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
+                            <a href="/Beweglichkeit-und-Kraft" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
                                 <Dumbbell className="nav-icon" />
                                 <span>Beweglichkeit & Kraft</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/Home" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
+                            <a href="/Koerperspannung" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
                                 <BicepsFlexed className="nav-icon" />
                                 <span>Körperspannung</span>
                             </a>
