@@ -12,7 +12,7 @@ function page() {
   };
 
   const step1 = [
-    { src: "/vids/RollenD/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/vids/RollenD/ST1einfach.mov", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
     { src: "/vids/RollenD/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
     { src: "/vids/RollenD/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
     { src: "/vids/RollenD/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
