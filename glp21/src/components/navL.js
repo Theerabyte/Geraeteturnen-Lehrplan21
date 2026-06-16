@@ -31,96 +31,113 @@ export default function SideNav() {
     const isActive = (path) => pathname === path;
 
     return (
-        <aside className="sidenav h-screen // or min-h-screen overflow-y-auto scrollbar-thin scrollbar-thumb-rounded scrollbar-thumb-gray-400 scrollbar-track-gray-100">
-            <div className="sidenav-header">
+        <aside className="sidenav h-screen flex flex-col overflow-hidden bg-white border-r border-gray-200">
+            {/* Header */}
+            <div className="sidenav-header flex-shrink-0 px-4 py-6 border-b border-gray-200">
                 <div className="logo-small">
-                    <img src="/v3.png" alt="Logo" className="icon-small" />
+                    <img src="../LogoEcke.png" alt="Logo" className="icon-small" />
                 </div>
                 <h2 className="sidenav-title">Navigation</h2>
             </div>
 
-            {/* Section 1 */}
-            <div className="nav-section">
-                <button className="section-heading" onClick={() => toggleSection('main')}>
-                    <LayoutDashboard className="section-icon" />
-                    <span>Grundbewegung an Geräten</span>
-                    {openSections.main ? <ChevronDown /> : <ChevronRight />}
-                </button>
+            {/* Scrollable Content Area */}
+            <div className="flex-1 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 scrollbar-thumb-rounded px-3 py-4">
 
-                {openSections.main && (
-                    <ul className="nav-list">
-                        <li>
-                            <a href="/Balancieren" className={`nav-link ${isActive('/Bal') ? 'active' : ''}`}>
-                                <img src="/icons/beam.svg" alt="Schwebebalken Icon" className='nav-icon' />
-                                <span>Balancieren</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Rollen-und-Drehen" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
-                                <img src="/icons/bars.svg" alt="Paralell-Barren Icon" className='nav-icon' />
-                                <span>Rollen & Drehen</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Schaukeln-und-Schwingen" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
-                                <img src="/icons/rings.svg" alt="Gymnastikringe Icon" className='nav-icon' />
-                                <span>Schaukeln & Schwingen</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Springen-Stuetzen-Klettern" className={`nav-link ${isActive('/Bal') ? 'active' : ''}`}>
-                                <img src="/icons/ladder.svg" alt="Leiter Icon" className='nav-icon' />
-                                <span>Springen, Stützen, Klettern</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Wagnis-und-Verantwortung" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
-                                <img src="/icons/love.svg" alt="Handherz Icon" className='nav-icon' />
-                                <span>Wagnis & Verantwortung</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Helfen-Sichern-Kooperieren" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
-                                <BriefcaseMedical alt="Medizinkoffer" className='nav-icon' />
-                                <span>Helfen, Sichern, Kooperieren</span>
-                            </a>
-                        </li>
-                    </ul>
-                )}
+                {/* Section 1 */}
+                <div className="nav-section mb-8">
+                    <button
+                        className="section-heading w-full flex items-center gap-3 px-3 py-2 text-left hover:bg-gray-100 rounded-lg transition-colors"
+                        onClick={() => toggleSection('main')}
+                        aria-expanded={openSections.main}
+                    >
+                        <LayoutDashboard className="section-icon w-5 h-5" />
+                        <span className="font-medium flex-1">Grundbewegung an Geräten</span>
+                        {openSections.main ? <ChevronDown className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
+                    </button>
+
+                    {openSections.main && (
+                        <ul className="nav-list mt-2 space-y-1">
+                            <li>
+                                <a href="/Balancieren" className={`nav-link ${isActive('/Balancieren') ? 'active' : ''}`}>
+                                    <img src="/icons/beam.svg" alt="Schwebebalken" className="nav-icon" />
+                                    <span>Balancieren</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Rollen-und-Drehen" className={`nav-link ${isActive('/Rollen-und-Drehen') ? 'active' : ''}`}>
+                                    <img src="/icons/bars.svg" alt="Parallelbarren" className="nav-icon" />
+                                    <span>Rollen & Drehen</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Schaukeln-und-Schwingen" className={`nav-link ${isActive('/Schaukeln-und-Schwingen') ? 'active' : ''}`}>
+                                    <img src="/icons/rings.svg" alt="Gymnastikringe" className="nav-icon" />
+                                    <span>Schaukeln & Schwingen</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Springen-Stuetzen-Klettern" className={`nav-link ${isActive('/Springen-Stuetzen-Klettern') ? 'active' : ''}`}>
+                                    <img src="/icons/ladder.svg" alt="Leiter" className="nav-icon" />
+                                    <span>Springen, Stützen, Klettern</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Wagnis-und-Verantwortung" className={`nav-link ${isActive('/Wagnis-und-Verantwortung') ? 'active' : ''}`}>
+                                    <img src="/icons/love.svg" alt="Handherz" className="nav-icon" />
+                                    <span>Wagnis & Verantwortung</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Helfen-Sichern-Kooperieren" className={`nav-link ${isActive('/Helfen-Sichern-Kooperieren') ? 'active' : ''}`}>
+                                    <BriefcaseMedical className="nav-icon" />
+                                    <span>Helfen, Sichern, Kooperieren</span>
+                                </a>
+                            </li>
+                        </ul>
+                    )}
+                </div>
+
+                {/* Section 2 */}
+                <div className="nav-section">
+                    <button
+                        className="section-heading w-full flex items-center gap-3 px-3 py-2 text-left hover:bg-gray-100 rounded-lg transition-colors"
+                        onClick={() => toggleSection('personal')}
+                        aria-expanded={openSections.personal}
+                    >
+                        <LayoutDashboard className="section-icon w-5 h-5" />
+                        <span className="font-medium flex-1">Beweglichkeit, Kraft, Körperspannung</span>
+                        {openSections.personal ? <ChevronDown className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
+                    </button>
+
+                    {openSections.personal && (
+                        <ul className="nav-list mt-2 space-y-1">
+                            <li>
+                                <a href="/Beweglichkeit-und-Kraft" className={`nav-link ${isActive('/Beweglichkeit-und-Kraft') ? 'active' : ''}`}>
+                                    <Dumbbell className="nav-icon" />
+                                    <span>Beweglichkeit & Kraft</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/Koerperspannung" className={`nav-link ${isActive('/Koerperspannung') ? 'active' : ''}`}>
+                                    <BicepsFlexed className="nav-icon" />
+                                    <span>Körperspannung</span>
+                                </a>
+                            </li>
+                        </ul>
+                    )}
+                </div>
             </div>
 
-            {/* Section 2 */}
-            <div className="nav-section">
-                <button className="section-heading" onClick={() => toggleSection('personal')}>
-                    <LayoutDashboard className="section-icon" />
-                    <span>Beweglichkeit, Kraft, Körperspannung</span>
-                    {openSections.personal ? <ChevronDown /> : <ChevronRight />}
-                </button>
-
-                {openSections.personal && (
-                    <ul className="nav-list">
-                        <li>
-                            <a href="/Beweglichkeit-und-Kraft" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
-                                <Dumbbell className="nav-icon" />
-                                <span>Beweglichkeit & Kraft</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/Koerperspannung" className={`nav-link ${isActive('/Home') ? 'active' : ''}`}>
-                                <BicepsFlexed className="nav-icon" />
-                                <span>Körperspannung</span>
-                            </a>
-                        </li>
-                    </ul>
-                )}
-
-            </div>
-
-            <div className="sidenav-footer">
+            {/* Footer */}
+            <div className="sidenav-footer flex-shrink-0 px-4 py-6 border-t border-gray-200 text-xs">
                 <small>© {new Date().getFullYear()} </small>
-                <div style={{ display: "flex", flexDirection: "column", fontSize: "Medium"}}>
-                    <a href="https://be.lehrplan.ch/index.php?code=b%7C9%7C0%7C2" target="_blank" rel="noopener noreferrer">Zum Lehrplan 21</a>
-                    <a href="/CV" target="_blank">Über die Arbeit </a>
+                <div className="flex flex-col gap-1 mt-2 text-sm">
+                    <a href="https://be.lehrplan.ch/index.php?code=b%7C9%7C0%7C2" target="_blank" rel="noopener noreferrer" className="hover:underline" >
+                        Zum Lehrplan 21
+                    </a>
+                    <a href="/MAT" target="_blank" className="hover:underline">
+                        Über die Arbeit
+                    </a>
                 </div>
             </div>
         </aside>
