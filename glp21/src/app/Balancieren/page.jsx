@@ -41,7 +41,6 @@ function page() {
 
   return (
     <>
-      {/* <h1>Balancieren</h1> */}
       <div className="flex-container">
         <div className="abme">
           <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
@@ -49,18 +48,18 @@ function page() {
             <img src="/vids/Balacieren/GanzeBahn.jpg" alt="Gesamte Bahn" />
           </div>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "row", justifyContent: "center" }}>
-            <p style={{ margin: "0 2.75rem"}}>Schritt 1</p>
-            <p style={{ margin: "0 2.75rem"}}>Schritt 2</p>
-            <p style={{ margin: "0 2.75rem"}}>Schritt 3</p>
-            <p style={{ margin: "0 2.75rem"}}>Schritt 4</p>
+            <p style={{ margin: "0 2.75rem" }}>Schritt 1</p>
+            <p style={{ margin: "0 2.75rem" }}>Schritt 2</p>
+            <p style={{ margin: "0 2.75rem" }}>Schritt 3</p>
+            <p style={{ margin: "0 2.75rem" }}>Schritt 4</p>
           </div>
         </div>
       </div>
       <div className="flex-container">
         <div className="abme">
-          <h2>InfoText: Geschichte</h2>
+          <h2>InfoText: Achtungen etc</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-            Geschichte zum Ablauf / zur Bahn
+            Infos zum Ablauf / zur Bahn
           </div>
         </div>
         <div className="abme">
@@ -70,14 +69,15 @@ function page() {
           </div>
         </div>
       </div>
+      {/*Schritt 1*/}
       <details>
         <summary>Schritt 1</summary>
         <div className="flex-container">
           <div className="HnI" >
-            <h2>InfoText: Übungen</h2>
+            <h2>Übungen Schritt 1</h2>
             <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
-            <img src="/vids/Balacieren/GanzeBahn.jpg" alt="Gesamte Bahn" />
-            <h4>InfoText</h4>
+              <img src="/vids/Balacieren/Schritt1bild.jpg" alt="Schritt 1" />
+              <h4>InfoText</h4>
             </div>
             <br />
             <div className="pics">
@@ -108,12 +108,16 @@ function page() {
           </div>
         </div>
       </details>
+      {/*Schritt 2*/}
       <details>
         <summary>Schritt 2</summary>
         <div className="flex-container">
-          <div className="HnI">
-            <h2>InfoText: Übungen</h2>
-            {/* <h4>InfoText</h4> */}
+          <div className="HnI" >
+            <h2>Übungen Schritt 2</h2>
+            <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src="/vids/Balacieren/Schritt2bild.jpeg" alt="Schritt 2" />
+              <h4>InfoText</h4>
+            </div>
             <br />
             <div className="pics">
               {step2.map((hobby) => (
@@ -143,12 +147,16 @@ function page() {
           </div>
         </div>
       </details>
+      {/*Schritt 3*/}
       <details>
         <summary>Schritt 3</summary>
         <div className="flex-container">
-          <div className="HnI">
-            <h2>InfoText: Übungen</h2>
-            {/* <h4>InfoText</h4> */}
+          <div className="HnI" >
+            <h2>Übungen Schritt 3</h2>
+            <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src="/vids/Balacieren/Schritt3bild.jpeg" alt="Schritt 3" />
+              <h4>InfoText</h4>
+            </div>
             <br />
             <div className="pics">
               {step3.map((hobby) => (
@@ -178,12 +186,16 @@ function page() {
           </div>
         </div>
       </details>
+      {/*Schritt 4*/}
       <details>
         <summary>Schritt 4</summary>
         <div className="flex-container">
-          <div className="HnI">
-            <h2>InfoText: Übungen</h2>
-            {/* <h4>InfoText</h4> */}
+          <div className="HnI" >
+            <h2>Übungen Schritt 4</h2>
+            <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+              <img src="/vids/Balacieren/Schritt4bild.jpeg" alt="Schritt 4" />
+              <h4>InfoText</h4>
+            </div>
             <br />
             <div className="pics">
               {step4.map((hobby) => (
