@@ -12,10 +12,10 @@ function page() {
   };
 
   const step1 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/BeweglichkeitKraft/Schritt1einfach.mov", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/vids/BeweglichkeitKraft/Schritt1mittel.mov", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
+    { src: "/vids/BeweglichkeitKraft/Schritt1schwer.mov", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/vids/BeweglichkeitKraft/Schritt1bild.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
   ];
   
   const step2 = [
