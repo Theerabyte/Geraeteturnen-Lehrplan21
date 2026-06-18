@@ -12,31 +12,31 @@ function page() {
   };
 
   const step1 = [
-    { src: "/vids/Balacieren/LogoEcke.png", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach test" },
-    { src: "/vids/Balacieren/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/vids/Balacieren/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/vids/Balacieren/ic.jpg", alt: "Übung Erklärung", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/Balacieren/Schritt1einfach.mov", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/Balacieren/Schritt1mittel.mov", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/Balacieren/Schritt1schwer.mov", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/Balacieren/Schritt1bild.jpg", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
-  
+
   const step2 = [
-    { src: "/vids/Balacieren/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/vids/Balacieren/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/vids/Balacieren/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/vids/Balacieren/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/Balacieren/Schritt2einfach.mov", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/Balacieren/Schritt2mittel.mov", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/Balacieren/Schritt2schwer.mov", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/Balacieren/Schritt2erkl.mov", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
-  
+
   const step3 = [
-    { src: "/vids/Balacieren/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/vids/Balacieren/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/vids/Balacieren/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/vids/Balacieren/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/Balacieren/Schritt3einfach.mov", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/Balacieren/Schritt3mittel.mov", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/Balacieren/Schritt3schwer.mov", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/Balacieren/SChritt3bild.JPEG", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
-  
+
   const step4 = [
-    { src: "/vids/Balacieren/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/vids/Balacieren/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/vids/Balacieren/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/vids/Balacieren/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/Balacieren/Schritt4einfach.mov", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/Balacieren/Schritt4mittel.mov", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/Balacieren/Schritt4schwer.mov", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/Balacieren/Schritt4bild.JPEG", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
 
   return (
@@ -44,12 +44,15 @@ function page() {
       {/* <h1>Balancieren</h1> */}
       <div className="flex-container">
         <div className="abme">
-          <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-            <br />
+          <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
             <h2>Bahnenbild</h2>
-            <br />
-            <p>Schrittennummerierung</p>
-            <br />
+            <img src="/vids/Balacieren/GanzeBahn.jpg" alt="Gesamte Bahn" />
+          </div>
+          <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "row", justifyContent: "center" }}>
+            <p style={{ margin: "0 2.75rem"}}>Schritt 1</p>
+            <p style={{ margin: "0 2.75rem"}}>Schritt 2</p>
+            <p style={{ margin: "0 2.75rem"}}>Schritt 3</p>
+            <p style={{ margin: "0 2.75rem"}}>Schritt 4</p>
           </div>
         </div>
       </div>
@@ -70,9 +73,12 @@ function page() {
       <details>
         <summary>Schritt 1</summary>
         <div className="flex-container">
-          <div className="HnI">
+          <div className="HnI" >
             <h2>InfoText: Übungen</h2>
-            {/* <h4>InfoText</h4> */}
+            <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <img src="/vids/Balacieren/GanzeBahn.jpg" alt="Gesamte Bahn" />
+            <h4>InfoText</h4>
+            </div>
             <br />
             <div className="pics">
               {step1.map((hobby) => (
