@@ -12,31 +12,31 @@ function page() {
   };
 
   const step1 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/WagnisVerantwortung/Schritt1einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/WagnisVerantwortung/Schritt1mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/WagnisVerantwortung/Schritt1schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/vids/WagnisVerantwortung/Schritt1bild.jpeg", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
-  
+
   const step2 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/WagnisVerantwortung/Schritt2einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/WagnisVerantwortung/Schritt2mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/WagnisVerantwortung/Schritt2schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/vids/WagnisVerantwortung/Schritt2bild.jpeg", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
-  
+
   const step3 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/WagnisVerantwortung/Schritt3einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/WagnisVerantwortung/Schritt3mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/WagnisVerantwortung/Schritt3schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/vids/WagnisVerantwortung/Schritt3bild.jpeg", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
-  
+
   const step4 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/WagnisVerantwortung/Schritt4einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/WagnisVerantwortung/Schritt4mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/WagnisVerantwortung/Schritt4schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/vids/WagnisVerantwortung/Schritt4bild.mp4", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
 
   return (

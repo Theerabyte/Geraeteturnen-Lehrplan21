@@ -12,31 +12,34 @@ function page() {
   };
 
   const step1 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/SchaukelnSchwingen/Schritt1einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt1mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt1schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt1erkl1.mp4", alt: "Übung Erklärung1", desc: "Übung Erklärung1", resc: "Übung Erklärung Untertitel1" },
+    { src: "/vids/SchaukelnSchwingen/Schritt1erkl2.mp4", alt: "Übung Erklärung2", desc: "Übung Erklärung2", resc: "Übung Erklärung Untertitel2" }
   ];
-  
+
   const step2 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
-  ];
-  
+    { src: "/vids/SchaukelnSchwingen/Schritt2einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt2mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt2schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt2erkl.mp4", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
+   ];
+
   const step3 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/SchaukelnSchwingen/Schritt3einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt3mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt3schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/SChritt3bild.jpeg", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
-  
+
   const step4 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/SchaukelnSchwingen/Schritt4einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt4mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt4schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/SchaukelnSchwingen/Schritt4erkl1.mp4", alt: "Übung Erklärung1", desc: "Übung Erklärung1", resc: "Übung Erklärung Untertitel1" },
+    { src: "/vids/SchaukelnSchwingen/Schritt4erkl2.mp4", alt: "Übung Erklärung2", desc: "Übung Erklärung2", resc: "Übung Erklärung Untertitel2" },
+    { src: "/vids/SchaukelnSchwingen/Schritt4erkl3.mp4", alt: "Übung Erklärung3", desc: "Übung Erklärung3", resc: "Übung Erklärung Untertitel3" }
   ];
 
   return (

@@ -26,16 +26,16 @@ function page() {
   ];
 
   const step3 = [
-    { src: "/vids/Balacieren/Schritt3einfach.mov", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
-    { src: "/vids/Balacieren/Schritt3mittel.mov", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
-    { src: "/vids/Balacieren/Schritt3schwer.mov", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/Balacieren/Schritt3einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/Balacieren/Schritt3mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/Balacieren/Schritt3schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
     { src: "/vids/Balacieren/SChritt3bild.JPEG", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
 
   const step4 = [
-    { src: "/vids/Balacieren/Schritt4einfach.mov", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
-    { src: "/vids/Balacieren/Schritt4mittel.mov", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
-    { src: "/vids/Balacieren/Schritt4schwer.mov", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
+    { src: "/vids/Balacieren/Schritt4einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach Untertitel" },
+    { src: "/vids/Balacieren/Schritt4mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel Untertitel" },
+    { src: "/vids/Balacieren/Schritt4schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer Untertitel" },
     { src: "/vids/Balacieren/Schritt4bild.JPEG", alt: "Übung Erklärung", desc: "Übung Erklärung", resc: "Übung Erklärung Untertitel" }
   ];
 

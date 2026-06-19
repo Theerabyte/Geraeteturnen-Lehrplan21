@@ -10,33 +10,34 @@ function page() {
   const handleToggle = (alt) => {
     setExpandedHobby(prev => (prev === alt ? null : alt));
   };
-
+  
   const step1 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/Körperspannung/Schritt1einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/vids/Körperspannung/Schritt1mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
+    { src: "/vids/Körperspannung/Schritt1schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/vids/Körperspannung/Schritt1bild.jpeg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
   ];
-  
+
   const step2 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/Körperspannung/Schritt2einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/vids/Körperspannung/Schritt2mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
+    { src: "/vids/Körperspannung/Schritt2schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/vids/Körperspannung/Schritt2bild.jpeg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
   ];
-  
+
   const step3 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/Körperspannung/Schritt3einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/vids/Körperspannung/Schritt3mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
+    { src: "/vids/Körperspannung/Schritt3schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/vids/Körperspannung/Schritt3erkl.mp4", alt: "Übung Erklärung1", desc: "Übung Erklärung1", resc: "Übung Erklärung Untertitel1" },
+    { src: "/vids/Körperspannung/Schritt3erkl2.mp4", alt: "Übung Erklärung2", desc: "Übung Erklärung2", resc: "Übung Erklärung Untertitel2" }
   ];
-  
+
   const step4 = [
-    { src: "/hob/ba.jpg", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
-    { src: "/hob/bu.jpg", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
-    { src: "/hob/da.jpg", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
-    { src: "/hob/ic.jpg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
+    { src: "/vids/Körperspannung/Schritt4einfach.mp4", alt: "Übung Einfach", desc: "Übung Einfach", resc: "Übung Einfach xyz" },
+    { src: "/vids/Körperspannung/Schritt4mittel.mp4", alt: "Übung Mittel", desc: "Übung Mittel", resc: "Übung Mittel xyz" },
+    { src: "/vids/Körperspannung/Schritt4schwer.mp4", alt: "Übung Schwer", desc: "Übung Schwer", resc: "Übung Schwer xzy" },
+    { src: "/vids/Körperspannung/Schritt4bild.jpeg", alt: "Übung Extraschwer", desc: "Übung Extraschwer", resc: "Übung Extraschwer xyz" }
   ];
 
   return (
