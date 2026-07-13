@@ -1,6 +1,5 @@
 import "@/app/[styles]/globals.css";
 import NavL from "@/components/navL";
-import Nav from "@/components/nav";
 
 export const metadata = {
   title: "Geräteturnen leichtgemacht",
