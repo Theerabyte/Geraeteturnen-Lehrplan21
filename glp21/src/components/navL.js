@@ -96,7 +96,7 @@ export default function SideNav() {
                     )}
                 </div>
 
-                {/* Bew, K, K */}
+                {/* B, K, K */}
                 <div className="nav-section">
                     <button
                         className="section-heading w-full flex items-center gap-3 px-3 py-2 text-left hover:bg-gray-100 rounded-lg transition-colors"
@@ -130,10 +130,9 @@ export default function SideNav() {
             <div className="sidenav-footer flex-shrink-0 px-4 py-6 border-t border-gray-200 text-xs">
                 <small>© {new Date().getFullYear()} </small>
                 <div className="flex flex-col gap-1 mt-2 text-sm">
-                    <hr />
-                    <a href="https://be.lehrplan.ch/index.php?code=b%7C9%7C0%7C2" target="_blank" rel="noopener noreferrer" className="hover:underline" > Zum Lehrplan 21 </a>
-                    <span style={{color: '#A00000'}}>....</span>
-                    <a href="/MAT" target="_blank" className="hover:underline"> Über die Arbeit </a>
+                    <a href="https://be.lehrplan.ch/index.php?code=b%7C9%7C0%7C2" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{color: '#F2E9E9', padding: '4px 4px'}} > Zum Lehrplan 21 </a>
+                    <span style={{color: '#A00000'}}>span</span>
+                    <a href="/MAT" target="_blank" className="hover:underline" style={{color: '#F2E9E9', padding: '4px 4px'}}> Über die Arbeit </a>
                 </div>
             </div>
         </aside>

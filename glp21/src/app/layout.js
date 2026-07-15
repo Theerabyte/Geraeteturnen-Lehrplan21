@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
       <body >
         <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
           <NavL />
-          <div style={{ marginLeft: '25rem' }}>
+          <div style={{ marginLeft: '26rem' }}>
             <main>
               {children}
             </main>
