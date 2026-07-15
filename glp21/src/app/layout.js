@@ -10,9 +10,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="de">
       <body >
-        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
           <NavL />
-          <div style={{ marginLeft: '15rem' }}>
+          <div style={{ marginLeft: '25rem' }}>
             <main>
               {children}
             </main>

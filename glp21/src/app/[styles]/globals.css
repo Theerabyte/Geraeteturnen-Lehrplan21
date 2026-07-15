@@ -15,7 +15,7 @@
 }
 
 main {
-  padding-top: 1.5rem;   /* or more if your NavL is quite tall */
+  padding-top: 1.5rem;
 }
 
 body {
@@ -190,7 +190,7 @@ nav .logo {
 }
 
 .sidenav {
-  width: 260px;
+  width: 425px;
   min-height: 100vh;
   background: #A00000;
   color: #F2E9E9;

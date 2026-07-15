@@ -31,28 +31,27 @@ export default function SideNav() {
     const isActive = (path) => pathname === path;
 
     return (
-        <aside className="sidenav h-screen flex flex-col overflow-hidden bg-white border-r border-gray-200">
-            {/* Header */}
-            <div className="sidenav-header flex-shrink-0 px-4 py-6 border-b border-gray-200">
-                <div className="logo-small">
+        <aside className="sidenav h-screen flex flex-col overflow-hidden mr-20">
+
+            <div className="sidenav-header flex-shrink-0 px-4 py-6">
+                <a className="logo-small" href='/'>
                     <img src="../LogoEcke.png" alt="Logo" className="icon-small" />
-                </div>
+                </a>
                 <h2 className="sidenav-title">Navigation</h2>
             </div>
 
             {/* Scrollable Content Area */}
-            <div className="flex-1 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 scrollbar-thumb-rounded px-3 py-4">
+            <div className="flex-1 overflow-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 scrollbar-thumb-rounded px-3 py-4">
 
-                {/* Section 1 */}
+                {/* Grundbewegung */}
                 <div className="nav-section mb-8">
                     <button
                         className="section-heading w-full flex items-center gap-3 px-3 py-2 text-left hover:bg-gray-100 rounded-lg transition-colors"
                         onClick={() => toggleSection('main')}
                         aria-expanded={openSections.main}
                     >
-                        <LayoutDashboard className="section-icon w-5 h-5" />
-                        <span className="font-medium flex-1">Grundbewegung an Geräten</span>
                         {openSections.main ? <ChevronDown className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
+                        <span className="font-medium flex-1">Grundbewegung an Geräten</span>
                     </button>
 
                     {openSections.main && (
@@ -97,16 +96,15 @@ export default function SideNav() {
                     )}
                 </div>
 
-                {/* Section 2 */}
+                {/* Bew, K, K */}
                 <div className="nav-section">
                     <button
                         className="section-heading w-full flex items-center gap-3 px-3 py-2 text-left hover:bg-gray-100 rounded-lg transition-colors"
                         onClick={() => toggleSection('personal')}
                         aria-expanded={openSections.personal}
                     >
-                        <LayoutDashboard className="section-icon w-5 h-5" />
-                        <span className="font-medium flex-1">Beweglichkeit, Kraft, Körperspannung</span>
                         {openSections.personal ? <ChevronDown className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
+                        <p>Beweglichkeit, Kraft, Körperspannung</p>
                     </button>
 
                     {openSections.personal && (
@@ -132,12 +130,10 @@ export default function SideNav() {
             <div className="sidenav-footer flex-shrink-0 px-4 py-6 border-t border-gray-200 text-xs">
                 <small>© {new Date().getFullYear()} </small>
                 <div className="flex flex-col gap-1 mt-2 text-sm">
-                    <a href="https://be.lehrplan.ch/index.php?code=b%7C9%7C0%7C2" target="_blank" rel="noopener noreferrer" className="hover:underline" >
-                        Zum Lehrplan 21
-                    </a>
-                    <a href="/MAT" target="_blank" className="hover:underline">
-                        Über die Arbeit
-                    </a>
+                    <hr />
+                    <a href="https://be.lehrplan.ch/index.php?code=b%7C9%7C0%7C2" target="_blank" rel="noopener noreferrer" className="hover:underline" > Zum Lehrplan 21 </a>
+                    <span style={{color: '#A00000'}}>....</span>
+                    <a href="/MAT" target="_blank" className="hover:underline"> Über die Arbeit </a>
                 </div>
             </div>
         </aside>
