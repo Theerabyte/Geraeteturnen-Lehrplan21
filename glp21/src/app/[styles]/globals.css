@@ -210,9 +210,15 @@ nav .logo {
   text-align: center;
 }
 
+.scril {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-track-color: #A00000;
+}
+
 .logo-small .icon-small {
   width: 90px;
-  height:90px;
+  height: 90px;
   margin: 0 auto 0.5rem;
 }
 
@@ -554,7 +560,7 @@ div.desc {
   display: block;
   border: none;
   /*Color-Ändern*/
-  border-bottom: 1px solid #3cc1ff; 
+  border-bottom: 1px solid #3cc1ff;
   width: 100%;
 }
 
@@ -569,7 +575,8 @@ div.desc {
   text-align: center;
 }
 
-.proFo { /*Color-Ändern*/
+.proFo {
+  /*Color-Ändern*/
   background: #ff7b00;
   background: linear-gradient(180deg, rgba(255, 123, 0, 1) 25%, rgba(2, 8, 194, 1) 75%);
 }
@@ -698,110 +705,110 @@ tr:nth-child(odd) {
 /* Query for Menu animation */
 @media (max-width: 1064px) {
   nav {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   nav .logo {
-      display: none;
+    display: none;
   }
 
   nav a,
   nav button {
-      padding: 10px;
-      text-align: center;
+    padding: 10px;
+    text-align: center;
   }
 
   .menu {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      background: #CB0000;
-      padding: 10px 0;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #CB0000;
+    padding: 10px 0;
   }
 
   .menu.show {
-      display: flex;
+    display: flex;
   }
 
   .menu-button {
-      display: block;
+    display: block;
   }
 
   .flex-container {
-      flex-direction: column;
+    flex-direction: column;
   }
 
   .abme,
   .HnI {
-      margin: 10px 0;
+    margin: 10px 0;
   }
 }
 
 /* Query for index animation */
 @media (max-width: 1064px) {
   nav {
-      padding: 5px 0;
+    padding: 5px 0;
   }
 
   nav a,
   nav button {
-      font-size: 14px;
+    font-size: 14px;
   }
 
   .abme,
   .HnI {
-      padding: 15px;
+    padding: 15px;
   }
 }
 
 @media (max-width: 600px) {
   .Me {
-      max-width: 90%;
+    max-width: 90%;
   }
 }
 
 /* Query for IMG-Gallery responsiveness */
 @media only screen and (max-width: 700px) {
   .responsive {
-      width: 49%;
-      margin: 6px 0;
+    width: 49%;
+    margin: 6px 0;
   }
 }
 
 @media only screen and (max-width: 500px) {
   .responsive {
-      width: 100%;
+    width: 100%;
   }
 }
 
 /* Query for HuI animation */
 @media (min-width: 1200px) {
   .pics {
-      grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 /* Query for CV animation */
 @media only screen and (max-width: 600px) {
   .content {
-      flex-direction: column;
-      align-items: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .left,
   .right {
-      margin: 10px 0;
+    margin: 10px 0;
   }
 }
 
 /*Color-Ändern*/
 @media only screen and (max-width: 1169px) {
   .dat {
-      color: #ffc800;
+    color: #ffc800;
   }
 
   .det {
-      color: #ffc800;
+    color: #ffc800;
   }
 
 }
@@ -809,6 +816,6 @@ tr:nth-child(odd) {
 /* Query for Impressum animation */
 @media (max-width: 700px) {
   #impressumButton {
-      margin: 0 25%;
+    margin: 0 25%;
   }
 }

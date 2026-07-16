@@ -59,9 +59,9 @@ function page() {
       </div>
       <div className="flex-container">
         <div className="abme">
-          <h2>InfoText: Achtungen etc</h2>
+          <h2>InfoText: Achtungen</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-            Infos zum Ablauf / zur Bahn
+            Infos zum Ablauf / zur Bahn / sicherheitvorschriften
           </div>
         </div>
         <div className="abme">

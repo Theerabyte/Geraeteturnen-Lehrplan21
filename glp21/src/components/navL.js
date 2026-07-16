@@ -41,7 +41,7 @@ export default function SideNav() {
             </div>
 
             {/* Scrollable Content Area */}
-            <div className="flex-1 overflow-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100 scrollbar-thumb-rounded px-3 py-4">
+            <div className='scril'>
 
                 {/* Grundbewegung */}
                 <div className="nav-section mb-8">
