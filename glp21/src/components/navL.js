@@ -31,31 +31,25 @@ export default function SideNav() {
     const isActive = (path) => pathname === path;
 
     return (
-        <aside className="sidenav h-screen flex flex-col overflow-hidden mr-20">
-
-            <div className="sidenav-header flex-shrink-0 px-4 py-6">
-                <a className="logo-small" href='/'>
-                    <img src="../LogoEcke.png" alt="Logo" className="icon-small" />
-                </a>
-                <h2 className="sidenav-title">Navigation</h2>
-            </div>
-
-            {/* Scrollable Content Area */}
+        <aside className="sidenav">
             <div className='scril'>
 
+                <div className="sidenav-header">
+                    <a className="logo-small" href='/'>
+                        <img src="../LogoEcke.png" alt="Logo" className="icon-small" />
+                    </a>
+                    <h2 className="sidenav-title">Navigation</h2>
+                </div>
+
                 {/* Grundbewegung */}
-                <div className="nav-section mb-8">
-                    <button
-                        className="section-heading w-full flex items-center gap-3 px-3 py-2 text-left hover:bg-gray-100 rounded-lg transition-colors"
-                        onClick={() => toggleSection('main')}
-                        aria-expanded={openSections.main}
-                    >
+                <div className="nav-section">
+                    <button className="section-heading" onClick={() => toggleSection('main')} aria-expanded={openSections.main}>
                         {openSections.main ? <ChevronDown className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
                         <span className="font-medium flex-1">Grundbewegung an Geräten</span>
                     </button>
 
                     {openSections.main && (
-                        <ul className="nav-list mt-2 space-y-1">
+                        <ul className="nav-list">
                             <li>
                                 <a href="/Balancieren" className={`nav-link ${isActive('/Balancieren') ? 'active' : ''}`}>
                                     <img src="/icons/beam.svg" alt="Schwebebalken" className="nav-icon" />
@@ -98,17 +92,13 @@ export default function SideNav() {
 
                 {/* B, K, K */}
                 <div className="nav-section">
-                    <button
-                        className="section-heading w-full flex items-center gap-3 px-3 py-2 text-left hover:bg-gray-100 rounded-lg transition-colors"
-                        onClick={() => toggleSection('personal')}
-                        aria-expanded={openSections.personal}
-                    >
+                    <button className="section-heading" onClick={() => toggleSection('personal')} aria-expanded={openSections.personal}>
                         {openSections.personal ? <ChevronDown className="w-4 h-4" /> : <ChevronRight className="w-4 h-4" />}
                         <p>Beweglichkeit, Kraft, Körperspannung</p>
                     </button>
 
                     {openSections.personal && (
-                        <ul className="nav-list mt-2 space-y-1">
+                        <ul className="nav-list">
                             <li>
                                 <a href="/Beweglichkeit-und-Kraft" className={`nav-link ${isActive('/Beweglichkeit-und-Kraft') ? 'active' : ''}`}>
                                     <Dumbbell className="nav-icon" />
@@ -124,15 +114,13 @@ export default function SideNav() {
                         </ul>
                     )}
                 </div>
-            </div>
 
-            {/* Footer */}
-            <div className="sidenav-footer flex-shrink-0 px-4 py-6 border-t border-gray-200 text-xs">
-                <small>© {new Date().getFullYear()} </small>
-                <div className="flex flex-col gap-1 mt-2 text-sm">
-                    <a href="https://be.lehrplan.ch/index.php?code=b%7C9%7C0%7C2" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{color: '#F2E9E9', padding: '4px 4px'}} > Zum Lehrplan 21 </a>
-                    <span style={{color: '#A00000'}}>span</span>
-                    <a href="/MAT" target="_blank" className="hover:underline" style={{color: '#F2E9E9', padding: '4px 4px'}}> Über die Arbeit </a>
+                {/* Footer */}
+                <div className="sidenav-footer">
+                    <small>© {new Date().getFullYear()} </small>
+                    <br />
+                    <a href="https://be.lehrplan.ch/index.php?code=b%7C9%7C0%7C2" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#F2E9E9', padding: '4px 16px' }}> Zum Lehrplan 21 </a>
+                    <a href="/MAT" target="_blank" className="hover:underline" style={{ color: '#F2E9E9', padding: '4px 16px' }}> Über die Arbeit </a>
                 </div>
             </div>
         </aside>

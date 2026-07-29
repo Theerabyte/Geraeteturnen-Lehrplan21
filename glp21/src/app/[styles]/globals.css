@@ -191,14 +191,14 @@ nav .logo {
 
 .sidenav {
   width: 425px;
-  min-height: 100vh;
+  height: 100vh;
   background: #A00000;
   color: #F2E9E9;
   position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 900;
-  padding: 1.5rem 0;
+  z-index: 1;
+  padding: .5rem 0;
+  display: flex;
+  flex-direction: column;
   overflow-y: auto;
   border-right: 2px solid #CB0000;
   font-family: Futura, sans-serif;
@@ -211,14 +211,16 @@ nav .logo {
 }
 
 .scril {
+  flex: 1;
   overflow-y: scroll;
   scrollbar-width: thin;
+  scrollbar-color: #a63131;
   scrollbar-track-color: #A00000;
 }
 
 .logo-small .icon-small {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   margin: 0 auto 0.5rem;
 }
 
@@ -252,11 +254,6 @@ nav .logo {
 .section-heading:hover {
   background: #800814;
   color: white;
-}
-
-.section-icon {
-  width: 22px;
-  height: 22px;
 }
 
 .nav-list {
@@ -293,7 +290,7 @@ nav .logo {
 }
 
 .sidenav-footer {
-  padding: 2rem 1.5rem;
+  padding: 1.5rem 1.5rem;
   text-align: center;
   font-size: 0.85rem;
   color: #D6ABAB88;
