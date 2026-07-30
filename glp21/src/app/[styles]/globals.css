@@ -419,9 +419,21 @@ footer {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 1600px;
-  margin: 20px auto;
+}
+
+.ame {
+  flex: 1;
+  margin: 10px;
+  padding: 20px;
+  background: #A00000;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  min-width: 280px;
+  white-space: pre-line;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .abme,
@@ -453,7 +465,9 @@ div.gallery {
 div.gallery:hover {
   border-style: solid;
   border-color: #D6ABAB;
+  border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
+  border-top-left-radius: 1rem;
   border-bottom-left-radius: 1rem;
   border-width: .25em;
 }
