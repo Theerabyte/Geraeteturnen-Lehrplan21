@@ -27,7 +27,7 @@ function page() {
     { src: "/vids/Balacieren/Schritt1einfach.mov", alt: "Übung Einfach", desc: "Darüber laufen vor- und rückwärts", resc: "? Untertitel" },
     { src: "/vids/Balacieren/Schritt1mittel.mov", alt: "Übung Mittel", desc: "Springen mit Standwaagen", resc: "? Untertitel" },
     { src: "/vids/Balacieren/Schritt1schwer.mov", alt: "Übung Schwer", desc: "Handstand an der Sprossenwand", resc: "? Untertitel" },
-    { src: "", alt: "Erklärungen", desc: "Erklärungen", resc: "Damit die Motivation vorhanden bleibt, können die Seile selber in Formen gelegt werden und zusätzliche ergänzt werden." }
+    { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Damit die Motivation vorhanden bleibt, können die Seile selber in Formen gelegt werden und zusätzliche ergänzt werden." }
   ];
 
   const step2 = [
@@ -41,14 +41,14 @@ function page() {
     { src: "/vids/Balacieren/Schritt3einfach.mov", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
     { src: "/vids/Balacieren/Schritt3mittel.mov", alt: "Übung Mittel", desc: "Seitwärts darüber laufen", resc: "Seitwärts darüber laufen" },
     { src: "/vids/Balacieren/Schritt3schwer.mov", alt: "Übung Schwer", desc: "Standwaage", resc: "Standwaage" },
-    { src: "", alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn die Kinder sehr unsicher sind, kann der Barren zu Beginn auch geradegestellt werden." }
+    { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn die Kinder sehr unsicher sind, kann der Barren zu Beginn auch geradegestellt werden." }
   ];
 
   const step4 = [
     { src: "/vids/Balacieren/Schritt4einfach.mov", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
     { src: "/vids/Balacieren/Schritt4mittel.mov", alt: "Übung Mittel", desc: "Auf den Knien darüber und evtl. Jemanden kreuzen", resc: "Auf den Knien darüber und evtl. Jemanden kreuzen" },
     { src: "/vids/Balacieren/Schritt4schwer.mov", alt: "Übung Schwer", desc: "Kreativ mit Bällen", resc: "Kreativ mit Bällen" },
-    { src: "", alt: "Erklärungen", desc: "Erklärungen", resc: "Bei Bedarf können die Bänkli zu Beginn auch andersrum stehen." }
+    { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei Bedarf können die Bänkli zu Beginn auch andersrum stehen." }
   ];
 
   return (
@@ -61,7 +61,7 @@ function page() {
             <img src="/vids/Balacieren/GanzeBahn.jpg" alt="Gesamte Bahn" />
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
-            <p style={{ margin: "0 2.75rem" }}>Station 1</p> <p style={{ margin: "0 2.75rem" }}>Station 2</p> <p style={{ margin: "0 2.75rem" }}>Station 3</p> <p style={{ margin: "0 2.75rem" }}>Station 4</p>
+            <p style={{ margin: "0 2.75rem" }}>Posten 1</p> <p style={{ margin: "0 2.75rem" }}>Posten 2</p> <p style={{ margin: "0 2.75rem" }}>Posten 3</p> <p style={{ margin: "0 2.75rem" }}>Posten 4</p>
           </div>
         </div>
       </div>
@@ -94,14 +94,14 @@ function page() {
           </div>
         </div>
       </div>
-      {/*Station 1*/}
+      {/*Posten 1*/}
       <details>
-        <summary style={{ fontSize: 'x-Large' }}>Übungen Station 1</summary>
+        <summary style={{ fontSize: 'x-Large' }}>Übungen Posten 1</summary>
         <div className="flex-container">
           <div className="HnI" >
             <h2>Balancieren mit Seilen</h2>
             <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <img src="/vids/Balacieren/Schritt1bild.jpg" alt="Station 1" />
+              <img src="/vids/Balacieren/Schritt1bild.jpg" alt="Posten 1" />
             </div>
             <br />
             <div className="pics">
@@ -132,15 +132,14 @@ function page() {
           </div>
         </div>
       </details>
-      {/*Station 2*/}
+      {/*Posten 2*/}
       <details>
-        <summary style={{ fontSize: 'x-Large' }}>Übungen Station 2</summary>
+        <summary style={{ fontSize: 'x-Large' }}>Übungen Posten 2</summary>
         <div className="flex-container">
           <div className="HnI" >
             <h2>Tiefes Reck</h2>
             <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <img src="/vids/Balacieren/Station2bild.jpeg" alt="Station 2" />
-              <h4>InfoText</h4>
+              <img src="/vids/Balacieren/Schritt2bild.jpeg" alt="Posten 2" />
             </div>
             <br />
             <div className="pics">
@@ -171,15 +170,14 @@ function page() {
           </div>
         </div>
       </details>
-      {/*Station 3*/}
+      {/*Posten 3*/}
       <details>
-        <summary style={{ fontSize: 'x-Large' }}>Übungen Station 3</summary>
+        <summary style={{ fontSize: 'x-Large' }}>Übungen Posten 3</summary>
         <div className="flex-container">
           <div className="HnI" >
             <h2>Schräger Schulstufenbarren</h2>
             <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <img src="/vids/Balacieren/Station3bild.jpeg" alt="Station 3" />
-              <h4>InfoText</h4>
+              <img src="/vids/Balacieren/Schritt3bild.jpeg" alt="Posten 3" />
             </div>
             <br />
             <div className="pics">
@@ -210,15 +208,14 @@ function page() {
           </div>
         </div>
       </details>
-      {/*Station 4*/}
+      {/*Posten 4*/}
       <details>
-        <summary style={{ fontSize: 'x-Large' }}>Übungen Station 4</summary>
+        <summary style={{ fontSize: 'x-Large' }}>Übungen Posten 4</summary>
         <div className="flex-container">
           <div className="HnI" >
             <h2>Bänklibalken</h2>
             <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
-              <img src="/vids/Balacieren/Station4bild.jpeg" alt="Station 4" />
-              <h4>InfoText</h4>
+              <img src="/vids/Balacieren/Schritt4bild.jpeg" alt="Posten 4" />
             </div>
             <br />
             <div className="pics">
