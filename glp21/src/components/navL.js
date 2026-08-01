@@ -71,7 +71,7 @@ export default function SideNav() {
                             <li>
                                 <a href="/Springen-Stuetzen-Klettern" className={`nav-link ${isActive('/Springen-Stuetzen-Klettern') ? 'active' : ''}`}>
                                     <img src="/icons/ladder.svg" alt="Leiter" className="nav-icon" />
-                                    <span>Springen, Stützen, Klettern</span>
+                                    <span>Springen, Stützen & Klettern</span>
                                 </a>
                             </li>
                             <li>
@@ -83,7 +83,7 @@ export default function SideNav() {
                             <li>
                                 <a href="/Helfen-Sichern-Kooperieren" className={`nav-link ${isActive('/Helfen-Sichern-Kooperieren') ? 'active' : ''}`}>
                                     <BriefcaseMedical className="nav-icon" />
-                                    <span>Helfen, Sichern, Kooperieren</span>
+                                    <span>Helfen, Sichern & Kooperieren</span>
                                 </a>
                             </li>
                         </ul>
