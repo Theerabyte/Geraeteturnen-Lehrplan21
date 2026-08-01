@@ -24,9 +24,9 @@ function page() {
   };
 
   const step1 = [
-    { src: "/vids/Balacieren/Schritt1einfach.mov", alt: "Übung Einfach", desc: "Darüber laufen vor- und rückwärts", resc: "? Untertitel" },
-    { src: "/vids/Balacieren/Schritt1mittel.mov", alt: "Übung Mittel", desc: "Springen mit Standwaagen", resc: "? Untertitel" },
-    { src: "/vids/Balacieren/Schritt1schwer.mov", alt: "Übung Schwer", desc: "Handstand an der Sprossenwand", resc: "? Untertitel" },
+    { src: "/vids/Balacieren/Schritt1einfach.mov", alt: "Übung Einfach", desc: "Darüber laufen vor- und rückwärts", resc: "Darüber laufen vor- und rückwärts" },
+    { src: "/vids/Balacieren/Schritt1mittel.mov", alt: "Übung Mittel", desc: "Springen mit Standwaagen", resc: "Springen mit Standwaagen" },
+    { src: "/vids/Balacieren/Schritt1schwer.mov", alt: "Übung Schwer", desc: "Handstand an der Sprossenwand", resc: "Handstand an der Sprossenwand" },
     { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Damit die Motivation vorhanden bleibt, können die Seile selber in Formen gelegt werden und zusätzliche ergänzt werden." }
   ];
 
