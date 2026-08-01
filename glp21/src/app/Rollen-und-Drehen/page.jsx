@@ -88,11 +88,11 @@ function page() {
             <li style={{ marginLeft: '24px' }}>1x Schulstufenbarren</li>
             <b>Posten 2:</b> <br />
             <li style={{ marginLeft: '24px' }}>2x Reck</li>
-            <li style={{ marginLeft: '24px' }}>6x dünne Matten (Leitturnmatten)</li>
+            <li style={{ marginLeft: '24px' }}>6x dünne Matten (Leichtturnmatten)</li>
             <li style={{ marginLeft: '24px' }}>1x Gymnastikball</li>
             <b>Posten 3:</b> <br />
             <li style={{ marginLeft: '24px' }}>Sprossenwand</li>
-            <li style={{ marginLeft: '24px' }}>10x dünne Matten (Leitturnmatten)</li>
+            <li style={{ marginLeft: '24px' }}>10x dünne Matten (Leichtturnmatten)</li>
             <li style={{ marginLeft: '24px' }}>1x 16er-Matte (Niedersprungmatte)</li>
             <li style={{ marginLeft: '24px' }}>3x Bänkli</li>
             <li style={{ marginLeft: '24px' }}>4x Seile</li>

@@ -83,10 +83,10 @@ function page() {
             <b>Posten 2:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x Reck</li>
             <li style={{ marginLeft: '24px' }}>2x Gummiband</li>
-            <li style={{ marginLeft: '24px' }}>3x dünne Matten (Leitturnmatten)</li>
+            <li style={{ marginLeft: '24px' }}>3x dünne Matten (Leichtturnmatten)</li>
             <b>Posten 3:</b> <br />
             <li style={{ marginLeft: '24px' }}>Sprossenwand</li>
-            <li style={{ marginLeft: '24px' }}>4x dünne Matten (Leitturnmatten)</li>
+            <li style={{ marginLeft: '24px' }}>4x dünne Matten (Leichtturnmatten)</li>
             <b>Posten 4:</b> <br />
             <li style={{ marginLeft: '24px' }}>2x Schwedenkasten</li>
             <li style={{ marginLeft: '24px' }}>1x Minitramp</li>

@@ -85,10 +85,10 @@ function page() {
             <li style={{ marginLeft: '24px' }}>3x - 4x Sprungseile</li>
             <b>Posten 2:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x tiefes Reck</li>
-            <li style={{ marginLeft: '24px' }}>2x dünne Matten (Leitturnmatten)</li>
+            <li style={{ marginLeft: '24px' }}>2x dünne Matten (Leichtturnmatten)</li>
             <b>Posten 3:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x Schulstufenbarren</li>
-            <li style={{ marginLeft: '24px' }}>3x dünne Matten (Leitturnmatten)</li>
+            <li style={{ marginLeft: '24px' }}>3x dünne Matten (Leichtturnmatten)</li>
             <b>Posten 4:</b> <br />
             <li style={{ marginLeft: '24px' }}>2x Bänkli</li>
           </div>
