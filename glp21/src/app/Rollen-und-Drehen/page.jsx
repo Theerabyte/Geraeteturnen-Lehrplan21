@@ -61,8 +61,8 @@ function page() {
       <div className="flex-container">
         <div className="ame">
           <h2>Bahnenbild</h2>
-          <a href="/vids/RollenD/GanzeBahn.jpeg" target="_blank">
-            <img src="/vids/RollenD/GanzeBahn.jpeg" alt="Gesamte Bahn" />
+          <a href="/vids/RollenD/GanzBahn.jpeg" target="_blank">
+            <img src="/vids/RollenD/GanzBahn.jpeg" alt="Gesamte Bahn" />
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p style={{ margin: "0 2.75rem" }}>Posten 1</p> <p style={{ margin: "0 2.75rem" }}>Posten 2</p> <p style={{ margin: "0 2.75rem" }}>Posten 3</p> <p style={{ margin: "0 2.75rem" }}>Posten 4</p>
@@ -262,4 +262,3 @@ function page() {
 
 
 export default page
-// blabla
