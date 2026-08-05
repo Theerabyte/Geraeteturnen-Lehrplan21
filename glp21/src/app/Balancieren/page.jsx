@@ -72,7 +72,7 @@ function page() {
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             Die Gerätebahn gehört zu der Kategorie «Balancieren» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
             <br /><b style={{ color: '#dcc' }}>Sicherheitshinweis:</b><br />
-            Wichtig zu beachten ist, dass die Sprossenwand gut befestig ist. Auch beim Reck und Barren sollte eine erwachsene Person kontrollieren, ob alles fest ist.
+            Wichtig zu beachten ist, dass die Sprossenwand gut befestig ist. Auch beim Reck und Barren sollte eine erwachsene Person kontrollieren, ob alles befestigt ist.
           </div>
         </div>
         <div className="abme">
