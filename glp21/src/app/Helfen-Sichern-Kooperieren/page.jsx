@@ -109,16 +109,16 @@ function page() {
                   <div className="gallery">
                     {expandedStep1 === step1.alt ? (
                       <>
-                        <a style={{ pointerEvents: "none", cursor: "default" }} href={step1.src}>
-                          <Image
+                        {step1.src ? (
+                          <video
+                            width={400}
+                            height={300}
+                            controls
                             src={step1.src}
                             alt={step1.alt}
-                            width={300}
-                            height={200}
-                            layout="responsive"
-                            quality={75}
-                          />
-                        </a>
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                            onClick={(e) => e.stopPropagation()}
+                          />) : null}
                         <div className="desc">{step1.resc}</div>
                       </>
                     ) : (
@@ -147,16 +147,16 @@ function page() {
                   <div className="gallery">
                     {expandedStep2 === step2.alt ? (
                       <>
-                        <a style={{ pointerEvents: "none", cursor: "default" }} href={step2.src}>
-                          <Image
+                        {step2.src ? (
+                          <video
+                            width={400}
+                            height={300}
+                            controls
                             src={step2.src}
                             alt={step2.alt}
-                            width={300}
-                            height={200}
-                            layout="responsive"
-                            quality={75}
-                          />
-                        </a>
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                            onClick={(e) => e.stopPropagation()}
+                          />) : null}
                         <div className="desc">{step2.resc}</div>
                       </>
                     ) : (
@@ -185,16 +185,16 @@ function page() {
                   <div className="gallery">
                     {expandedStep3 === step3.alt ? (
                       <>
-                        <a style={{ pointerEvents: "none", cursor: "default" }} href={step3.src}>
-                          <Image
+                        {step3.src ? (
+                          <video
+                            width={400}
+                            height={300}
+                            controls
                             src={step3.src}
                             alt={step3.alt}
-                            width={300}
-                            height={200}
-                            layout="responsive"
-                            quality={75}
-                          />
-                        </a>
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                            onClick={(e) => e.stopPropagation()}
+                          />) : null}
                         <div className="desc">{step3.resc}</div>
                       </>
                     ) : (
@@ -223,16 +223,16 @@ function page() {
                   <div className="gallery">
                     {expandedStep4 === step4.alt ? (
                       <>
-                        <a style={{ pointerEvents: "none", cursor: "default" }} href={step4.src}>
-                          <Image
+                        {step4.src ? (
+                          <video
+                            width={400}
+                            height={300}
+                            controls
                             src={step4.src}
                             alt={step4.alt}
-                            width={300}
-                            height={200}
-                            layout="responsive"
-                            quality={75}
-                          />
-                        </a>
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                            onClick={(e) => e.stopPropagation()}
+                          />) : null}
                         <div className="desc">{step4.resc}</div>
                       </>
                     ) : (
