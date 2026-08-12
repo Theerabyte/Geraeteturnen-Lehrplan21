@@ -72,7 +72,7 @@ function page() {
           <h2>Informationen zur Bahn</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             Die Gerätebahn gehört zu der Kategorie «Körperspannung» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
-            <br /><b style={{ color: '#dcc' }}>Sicherheitshinweis:</b><br />
+            <br /><b>Sicherheitshinweis:</b><br />
             Wichtig zu beachten ist, dass das Minitramp immer wieder kontrolliert wird, da dies leicht verrutschen kann. Vorzeitig kann mit den Kindern noch trocken die Positionen C+, C- und I angeschaut werden, so können die Übungen besser ausgeführt werden.
           </div>
         </div>

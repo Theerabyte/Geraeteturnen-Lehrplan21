@@ -75,7 +75,7 @@ function page() {
           <h2>Informationen zur Bahn</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             Die Gerätebahn gehört zu der Kategorie «Rollen und Drehen» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
-            <br /><b style={{ color: '#dcc' }}>Sicherheitshinweis:</b><br />
+            <br /><b>Sicherheitshinweis:</b><br />
             Wichtig ist, dass die Geräte kontrolliert werden. Zudem sollte beachtet werden, dass das Minitramp an der 40er-Matte befestigt wird, um Verschiebungen zu vermeiden.
           </div>
         </div>

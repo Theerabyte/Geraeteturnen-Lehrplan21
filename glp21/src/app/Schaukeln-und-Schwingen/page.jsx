@@ -75,7 +75,7 @@ function page() {
           <h2>Informationen zur Bahn</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             Die Gerätebahn gehört zu der Kategorie «Schaukeln und Schwingen» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
-            <br /><b style={{ color: '#dcc' }}>Sicherheitshinweis:</b><br />
+            <br /><b>Sicherheitshinweis:</b><br />
             Wichtig zu beachten ist, dass während dem Schwingen an den Ringen, nichts verstellt wird. Beim hohen Reck kann für die höhere Sicherheit Magnesium verwendet werden.
           </div>
         </div>

@@ -71,7 +71,7 @@ function page() {
           <h2>Informationen zur Bahn</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             Die Gerätebahn gehört zu der Kategorie «Beweglichkeit und Kraft» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
-            <br /><b style={{ color: '#dcc' }}>Sicherheitshinweis:</b><br />
+            <br /><b>Sicherheitshinweis:</b><br />
             Wichtig zu beachten ist, dass beim Posten 4 immer eine erwachsene Person anwesend ist für die Sicherheit der Turnenden.
           </div>
         </div>

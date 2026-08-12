@@ -71,7 +71,7 @@ function page() {
           <h2>Informationen zur Bahn</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             Die Gerätebahn gehört zu der Kategorie «Helfen und Sichern» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
-            <br /><b style={{ color: '#dcc' }}>Sicherheitshinweis:</b><br />
+            <br /><b>Sicherheitshinweis:</b><br />
             Wichtig zu beachten ist, dass die Kinder vorher eine Einführung bekommen, was alles wichtig ist beim Helfen. Sie sollten wissen, dass man den Kopf zur Brust nehmen sollte, wo man hält und welche Hilfsgriffe verwendet werden sollten.
           </div>
         </div>

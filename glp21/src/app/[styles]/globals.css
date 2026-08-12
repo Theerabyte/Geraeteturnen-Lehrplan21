@@ -21,7 +21,11 @@ main {
 body {
   line-height: 1.6;
   background: #F2F2F2;
-  color: #333;
+  color: #d0d0d0;
+}
+
+summary {
+  color: #CB0000;
 }
 
 button {
@@ -308,7 +312,7 @@ h1 {
 
 h2 {
   font-family: Lobster;
-  color: #56070c;
+  color: #F2E9E9;
   text-align: center;
 }
 
@@ -323,7 +327,9 @@ h4 {
   color: #800814;
   text-align: center;
 }
-
+b {
+  color: #F2E9E9
+}
 .langA {
   height: 5;
   width: 15;
