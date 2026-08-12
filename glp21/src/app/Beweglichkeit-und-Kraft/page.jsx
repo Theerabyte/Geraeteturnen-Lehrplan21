@@ -27,7 +27,7 @@ function page() {
     { src: "/vids/BeweglichkeitKraft/Schritt1einfach.mov", alt: "Übung Einfach", desc: "Liegestützdrehen", resc: "? Untertittel" },
     { src: "/vids/BeweglichkeitKraft/Schritt1mittel.mov", alt: "Übung Mittel", desc: "Liegestützposition auf einem Ball", resc: "? Untertittel" },
     { src: "/vids/BeweglichkeitKraft/Schritt1schwer.mov", alt: "Übung Schwer", desc: "Grätsche mit Übungen", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt1bild.jpg", alt: "Erklärungen", desc: "Erklärungen", resc: "Bei der Liegestütze sollte ein klares I ersichtlich sein." }
+    { src: "/vids/BeweglichkeitKraft/Schritt1bild.jpeg", alt: "Erklärungen", desc: "Erklärungen", resc: "Bei der Liegestütze sollte ein klares I ersichtlich sein." }
   ];
 
   const step2 = [
@@ -57,8 +57,8 @@ function page() {
       <div className="flex-container">
         <div className="ame">
           <h2>Bahnenbild</h2>
-          <a href="/vids/BeweglichkeitKraft/GanzeBahn.jpg" target="_blank">
-            <img src="/vids/BeweglichkeitKraft/GanzeBahn.jpg" alt="Gesamte Bahn" />
+          <a href="/vids/BeweglichkeitKraft/GanzeBahn.jpeg" target="_blank">
+            <img src="/vids/BeweglichkeitKraft/GanzeBahn.jpeg" alt="Gesamte Bahn" />
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p style={{ margin: "0 2.75rem" }}>Posten 1</p> <p style={{ margin: "0 2.75rem" }}>Posten 2</p> <p style={{ margin: "0 2.75rem" }}>Posten 3</p> <p style={{ margin: "0 2.75rem" }}>Posten 4</p>
