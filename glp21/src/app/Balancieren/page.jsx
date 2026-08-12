@@ -109,16 +109,17 @@ function page() {
                 <div className="responsive" key={step1.alt} onClick={() => handleToggle1(step1.alt)}>
                   <div className="gallery">
                     {expandedStep1 === step1.alt ? (
-                      <>{step1.src ? (
-                        <video
-                          width={400}
-                          height={300}
-                          controls
-                          src={step1.src}
-                          alt={step1.alt}
-                          style={{ maxWidth: '100%', height: 'auto' }}
-                          onClick={(e) => e.stopPropagation()}
-                        />) : null}
+                      <>
+                        {step1.src ? (
+                          <video
+                            width={400}
+                            height={300}
+                            controls
+                            src={step1.src}
+                            alt={step1.alt}
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                            onClick={(e) => e.stopPropagation()}
+                          />) : null}
                         <div className="desc">{step1.resc}</div>
                       </>
                     ) : (
@@ -146,16 +147,17 @@ function page() {
                 <div className="responsive" key={step2.alt} onClick={() => handleToggle2(step2.alt)}>
                   <div className="gallery">
                     {expandedStep2 === step2.alt ? (
-                      <>{step2.src ? (
-                        <video
-                          width={400}
-                          height={300}
-                          controls
-                          src={step2.src}
-                          alt={step2.alt}
-                          style={{ maxWidth: '100%', height: 'auto' }}
-                          onClick={(e) => e.stopPropagation()}
-                        />) : null}
+                      <>
+                        {step2.src ? (
+                          <video
+                            width={400}
+                            height={300}
+                            controls
+                            src={step2.src}
+                            alt={step2.alt}
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                            onClick={(e) => e.stopPropagation()}
+                          />) : null}
                         <div className="desc">{step2.resc}</div>
                       </>
                     ) : (
@@ -183,16 +185,17 @@ function page() {
                 <div className="responsive" key={step3.alt} onClick={() => handleToggle3(step3.alt)}>
                   <div className="gallery">
                     {expandedStep3 === step3.alt ? (
-                      <>{step3.src ? (
-                        <video
-                          width={400}
-                          height={300}
-                          controls
-                          src={step3.src}
-                          alt={step3.alt}
-                          style={{ maxWidth: '100%', height: 'auto' }}
-                          onClick={(e) => e.stopPropagation()}
-                        />) : null}
+                      <>
+                        {step3.src ? (
+                          <video
+                            width={400}
+                            height={300}
+                            controls
+                            src={step3.src}
+                            alt={step3.alt}
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                            onClick={(e) => e.stopPropagation()}
+                          />) : null}
                         <div className="desc">{step3.resc}</div>
                       </>
                     ) : (
@@ -220,16 +223,17 @@ function page() {
                 <div className="responsive" key={step4.alt} onClick={() => handleToggle4(step4.alt)}>
                   <div className="gallery">
                     {expandedStep4 === step4.alt ? (
-                      <>{step4.src ? (
-                        <video
-                          width={400}
-                          height={300}
-                          controls
-                          src={step4.src}
-                          alt={step4.alt}
-                          style={{ maxWidth: '100%', height: 'auto' }}
-                          onClick={(e) => e.stopPropagation()}
-                        />) : null}
+                      <>
+                        {step4.src ? (
+                          <video
+                            width={400}
+                            height={300}
+                            controls
+                            src={step4.src}
+                            alt={step4.alt}
+                            style={{ maxWidth: '100%', height: 'auto' }}
+                            onClick={(e) => e.stopPropagation()}
+                          />) : null}
                         <div className="desc">{step4.resc}</div>
                       </>
                     ) : (
