@@ -24,31 +24,31 @@ function page() {
   };
 
   const step1 = [
-    { src: "/vids/BeweglichkeitKraft/Schritt1einfach.mov", alt: "Übung Einfach", desc: "Liegestützdrehen", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt1mittel.mov", alt: "Übung Mittel", desc: "Liegestützposition auf einem Ball", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt1schwer.mov", alt: "Übung Schwer", desc: "Grätsche mit Übungen", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt1bild.jpeg", alt: "Erklärungen", desc: "Erklärungen", resc: "Bei der Liegestütze sollte ein klares I ersichtlich sein." }
+    { src: "/vids/BeweglichkeitKraft/Schritt1einfach.mp4", alt: "Übung Einfach", desc: "Liegestützdrehen", resc: "? Untertittel" },
+    { src: "/vids/BeweglichkeitKraft/Schritt1mittel.mp4", alt: "Übung Mittel", desc: "Liegestützposition auf einem Ball", resc: "? Untertittel" },
+    { src: "/vids/BeweglichkeitKraft/Schritt1schwer.mp4", alt: "Übung Schwer", desc: "Grätsche mit Übungen", resc: "? Untertittel" },
+    { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei der Liegestütze sollte ein klares I ersichtlich sein." }
   ];
 
   const step2 = [
-    { src: "/vids/BeweglichkeitKraft/Schritt2einfach.mov", alt: "Übung Einfach", desc: "Vorhandstütz", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt2mittel.mov", alt: "Übung Mittel", desc: "Rückhandstütz", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt2schwer.mov", alt: "Übung Schwer", desc: "Liegestützen", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt2bild.jgp", alt: "Erklärungen", desc: "Erklärungen", resc: "Bei allen 3 Übungen muss von den Turnenden aus den Schultern gestossen werden, dabei muss der Bauch angespannt sein." }
+    { src: "/vids/BeweglichkeitKraft/Schritt2einfach.mp4", alt: "Übung Einfach", desc: "Vorhandstütz", resc: "? Untertittel" },
+    { src: "/vids/BeweglichkeitKraft/Schritt2mittel.mp4", alt: "Übung Mittel", desc: "Rückhandstütz", resc: "? Untertittel" },
+    { src: "/vids/BeweglichkeitKraft/Schritt2schwer.mp4", alt: "Übung Schwer", desc: "Liegestützen", resc: "? Untertittel" },
+    { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei allen 3 Übungen muss von den Turnenden aus den Schultern gestossen werden, dabei muss der Bauch angespannt sein." }
   ];
 
   const step3 = [
-    { src: "/vids/BeweglichkeitKraft/Schritt3einfach.mov", alt: "Übung Einfach", desc: "Handstand", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt3mittel.mov", alt: "Übung Mittel", desc: "Klappmesser", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt3schwer.mov", alt: "Übung Schwer", desc: "Brücke", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/SChritt3bild.JPEG", alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn die Kinder unsicher sind, kann beim Handstand durch einen Klammergriff geholfen werden." }
+    { src: "/vids/BeweglichkeitKraft/Schritt3einfach.mp4", alt: "Übung Einfach", desc: "Handstand", resc: "? Untertittel" },
+    { src: "/vids/BeweglichkeitKraft/Schritt3mittel.mp4", alt: "Übung Mittel", desc: "Klappmesser", resc: "? Untertittel" },
+    { src: "/vids/BeweglichkeitKraft/Schritt3schwer.mp4", alt: "Übung Schwer", desc: "Brücke", resc: "? Untertittel" },
+    { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn die Kinder unsicher sind, kann beim Handstand durch einen Klammergriff geholfen werden." }
   ];
 
   const step4 = [
-    { src: "/vids/BeweglichkeitKraft/Schritt4einfach.mov", alt: "Übung Einfach", desc: "Springen mit Stütz", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt4mittel.mov", alt: "Übung Mittel", desc: "Aufsprung mit Stütz", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt4schwer.mov", alt: "Übung Schwer", desc: "Überschlag", resc: "? Untertittel" },
-    { src: "/vids/BeweglichkeitKraft/Schritt4erklärung.mov", alt: "Erklärungen", desc: "Erklärungen", resc: "Beim Überschlag wird der Kreuzgriff verwendet, so wird der turnenden Person das Drehen erleichtert." }
+    { src: "/vids/BeweglichkeitKraft/Schritt4einfach.mp4", alt: "Übung Einfach", desc: "Springen mit Stütz", resc: "? Untertittel" },
+    { src: "/vids/BeweglichkeitKraft/Schritt4mittel.mp4", alt: "Übung Mittel", desc: "Aufsprung mit Stütz", resc: "? Untertittel" },
+    { src: "/vids/BeweglichkeitKraft/Schritt4schwer.mp4", alt: "Übung Schwer", desc: "Überschlag", resc: "? Untertittel" },
+    { src: "/vids/BeweglichkeitKraft/Schritt4erklärung.mp4", alt: "Erklärungen", desc: "Erklärungen", resc: "Beim Überschlag wird der Kreuzgriff verwendet, so wird der turnenden Person das Drehen erleichtert." }
   ];
 
   return (

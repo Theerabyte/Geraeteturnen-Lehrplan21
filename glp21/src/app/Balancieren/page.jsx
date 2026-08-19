@@ -38,16 +38,16 @@ function page() {
   ];
 
   const step3 = [
-    { src: "/vids/Balacieren/Schritt3einfach.mov", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
-    { src: "/vids/Balacieren/Schritt3mittel.mov", alt: "Übung Mittel", desc: "Seitwärts darüber laufen", resc: "Seitwärts darüber laufen" },
-    { src: "/vids/Balacieren/Schritt3schwer.mov", alt: "Übung Schwer", desc: "Standwaage", resc: "Standwaage" },
+    { src: "/vids/Balacieren/Schritt3einfach.mp4", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
+    { src: "/vids/Balacieren/Schritt3mittel.mp4", alt: "Übung Mittel", desc: "Seitwärts darüber laufen", resc: "Seitwärts darüber laufen" },
+    { src: "/vids/Balacieren/Schritt3schwer.mp4", alt: "Übung Schwer", desc: "Standwaage", resc: "Standwaage" },
     { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn die Kinder sehr unsicher sind, kann der Barren zu Beginn auch geradegestellt werden." }
   ];
 
   const step4 = [
-    { src: "/vids/Balacieren/Schritt4einfach.mov", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
-    { src: "/vids/Balacieren/Schritt4mittel.mov", alt: "Übung Mittel", desc: "Auf den Knien darüber und evtl. Jemanden kreuzen", resc: "Auf den Knien darüber und evtl. Jemanden kreuzen" },
-    { src: "/vids/Balacieren/Schritt4schwer.mov", alt: "Übung Schwer", desc: "Kreativ mit Bällen", resc: "Kreativ mit Bällen" },
+    { src: "/vids/Balacieren/Schritt4einfach.mp4", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
+    { src: "/vids/Balacieren/Schritt4mittel.mp4", alt: "Übung Mittel", desc: "Auf den Knien darüber und evtl. Jemanden kreuzen", resc: "Auf den Knien darüber und evtl. Jemanden kreuzen" },
+    { src: "/vids/Balacieren/Schritt4schwer.mp4", alt: "Übung Schwer", desc: "Kreativ mit Bällen", resc: "Kreativ mit Bällen" },
     { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei Bedarf können die Bänkli zu Beginn auch andersrum stehen." }
   ];
 
