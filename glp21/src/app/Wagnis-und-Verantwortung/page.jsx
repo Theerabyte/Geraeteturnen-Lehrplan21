@@ -61,7 +61,7 @@ function page() {
             <img src="/vids/WagnisVerantwortung/GanzeBahn.jpeg" alt="Gesamte Bahn" />
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
-            <p style={{ margin: "0 2.75rem" }}>Posten 1</p> <p style={{ margin: "0 2.75rem" }}>Posten 2</p> <p style={{ margin: "0 2.75rem" }}>Posten 3</p> <p style={{ margin: "0 2.75rem" }}>Posten 4</p>
+            <p style={{ margin: "0 2.75rem" }}>Station 1</p> <p style={{ margin: "0 2.75rem" }}>Station 2</p> <p style={{ margin: "0 2.75rem" }}>Station 3</p> <p style={{ margin: "0 2.75rem" }}>Station 4</p>
           </div>
         </div>
       </div>
@@ -100,7 +100,7 @@ function page() {
       </div>
       {/*Posten 1*/}
       <details>
-        <summary style={{ fontSize: 'x-Large' }}>Übungen Posten 1</summary>
+        <summary style={{ fontSize: 'x-Large' }}>Übungen Station 1</summary>
         <div className="flex-container">
           <div className="HnI" >
             <h2>Kletterstangen</h2>
@@ -138,7 +138,7 @@ function page() {
       </details>
       {/*Posten 2*/}
       <details>
-        <summary style={{ fontSize: 'x-Large' }}>Übungen Posten 2</summary>
+        <summary style={{ fontSize: 'x-Large' }}>Übungen Station 2</summary>
         <div className="flex-container">
           <div className="HnI" >
             <h2>Sprungparcours</h2>
@@ -176,7 +176,7 @@ function page() {
       </details>
       {/*Posten 3*/}
       <details>
-        <summary style={{ fontSize: 'x-Large' }}>Übungen Posten 3</summary>
+        <summary style={{ fontSize: 'x-Large' }}>Übungen Station 3</summary>
         <div className="flex-container">
           <div className="HnI" >
             <h2>Schräges Bänkli</h2>
@@ -214,7 +214,7 @@ function page() {
       </details>
       {/*Posten 4*/}
       <details>
-        <summary style={{ fontSize: 'x-Large' }}>Übungen Posten 4</summary>
+        <summary style={{ fontSize: 'x-Large' }}>Übungen Station 4</summary>
         <div className="flex-container">
           <div className="HnI" >
             <h2>Sprungbarren</h2>
