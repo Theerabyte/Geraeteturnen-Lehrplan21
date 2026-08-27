@@ -117,7 +117,7 @@ export default function Page() {
             <b>Station 1:</b> <br />
             <li style={{ marginLeft: '24px' }}>2x Reuterbrett</li>
             <li style={{ marginLeft: '24px' }}>1x Kastenteil</li>
-            <li style={{ marginLeft: '24px' }}>1x dünne Matten (Leichtturnmatten)</li>
+            <li style={{ marginLeft: '24px' }}>1x dünne Matte (Leichtturnmatten)</li>
             <b>Station 2:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x Barren</li>
             <li style={{ marginLeft: '24px' }}>4x dünne Matten (Leichtturnmatten)</li>

@@ -113,7 +113,7 @@ export default function Page() {
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             <b>Station 1:</b> <br />
             <li style={{ marginLeft: '24px' }}>Kletterstange</li>
-            <li style={{ marginLeft: '24px' }}>1x dünne Matten (Leichtturnmatten)</li>
+            <li style={{ marginLeft: '24px' }}>1x dünne Matte (Leichtturnmatten)</li>
             <li style={{ marginLeft: '24px' }}>1x 40er-Matte (Sprungmatte)</li>
             <b>Station 2:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x Schwedenkasten</li>
