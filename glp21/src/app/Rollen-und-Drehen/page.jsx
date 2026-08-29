@@ -4,36 +4,36 @@ import React, { useState } from 'react';
 
 const stepsData = [
   {
-    image1: "/vids/RollenD/Schritt1bild.jpeg",
+    image1: "/vids/RollenD/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/RollenD/Schritt1einfach.mp4", alt: "Übung Einfach", desc: "Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts", resc: "Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts" },
-      { src: "/vids/RollenD/Schritt1mittel.mp4", alt: "Übung Mittel", desc: "Feldaufschwung mit Stütz vorlings am hohen Holm, Hinuntergleiten gebückt über niederen Holm in Hockstand", resc: "Feldaufschwung mit Stütz vorlings am hohen Holm, Hinuntergleiten gebückt über niederen Holm in Hockstand" },
-      { src: "/vids/RollenD/Schritt1schwer.mp4", alt: "Übung Schwer", desc: "Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm", resc: "Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm" },
-      { src: "/vids/RollenD/Schritt1erkl1.mp4", alt: "Erklärung 1", desc: "Erklärung 1", resc: "Beim Felgaufzug wird ein Drehgriff verwendet. So kann mit einer Hand gestützt und mit der anderen dem Bein Schwung gegeben werden. Beim Abrollen verwendet man dann den Klammergriff." },
-      { src: "/vids/RollenD/Schritt1erkl2.mp4", alt: "Erklärung 2", desc: "Erklärung 2", resc: "Beim Felgaufzug am hohen Holmen wird ebenfalls ein Drehgriff verwendet, zusätzlich kann durch den Stützgriff geholfen werden, damit die Stange erreicht wird." }
+      { src: "/vids/RollenD/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts", resc: "Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts" },
+      { src: "/vids/RollenD/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Feldaufschwung mit Stütz vorlings am hohen Holm, Hinuntergleiten gebückt über niederen Holm in Hockstand", resc: "Feldaufschwung mit Stütz vorlings am hohen Holm, Hinuntergleiten gebückt über niederen Holm in Hockstand" },
+      { src: "/vids/RollenD/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm", resc: "Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm" },
+      { src: "/vids/RollenD/Schritt1erkl1.MP4", alt: "Erklärung 1", desc: "Erklärung 1", resc: "Beim Felgaufzug wird ein Drehgriff verwendet. So kann mit einer Hand gestützt und mit der anderen dem Bein Schwung gegeben werden. Beim Abrollen verwendet man dann den Klammergriff." },
+      { src: "/vids/RollenD/Schritt1erkl2.MP4", alt: "Erklärung 2", desc: "Erklärung 2", resc: "Beim Felgaufzug am hohen Holmen wird ebenfalls ein Drehgriff verwendet, zusätzlich kann durch den Stützgriff geholfen werden, damit die Stange erreicht wird." }
     ],
-    image2: "/vids/RollenD/Schritt2bild.jpeg",
+    image2: "/vids/RollenD/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/RollenD/Schritt2einfach.mp4", alt: "Übung Einfach", desc: "Felge vorwärts", resc: "Felge vorwärts" },
-      { src: "/vids/RollenD/Schritt2mittel.mp4", alt: "Übung Mittel", desc: "Felgaufzug", resc: "Felgaufzug" },
-      { src: "/vids/RollenD/Schritt2schwer.mp4", alt: "Übung Schwer", desc: "Bauchwelle", resc: "Bauchwelle" },
-      { src: "/vids/RollenD/Schritt2erkl1.mp4", alt: "Erklärung 1", desc: "Erklärung 1", resc: "Beim Felgaufzug am Reck wird der Drehgriff verwendet, damit mit dem Schwung geholfen werden kann." },
-      { src: "/vids/RollenD/Schritt2erkl2.mp4", alt: "Erklärung 2", desc: "Erklärung 2", resc: "Bei der Bauchwelle wird ein Stützgriff verwendet, weil so die Turnenden an der Stange bleiben." },
-      { src: "/vids/RollenD/Schritt2erkl3.mp4", alt: "Erklärung 3", desc: "Erklärung 3", resc: "Selbständig können Kindern den Felgaufzug machen, indem sie einen Gymnastikball zur Hilfe nehmen." }
+      { src: "/vids/RollenD/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Felge vorwärts", resc: "Felge vorwärts" },
+      { src: "/vids/RollenD/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Felgaufzug", resc: "Felgaufzug" },
+      { src: "/vids/RollenD/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Bauchwelle", resc: "Bauchwelle" },
+      { src: "/vids/RollenD/Schritt2erkl1.MP4", alt: "Erklärung 1", desc: "Erklärung 1", resc: "Beim Felgaufzug am Reck wird der Drehgriff verwendet, damit mit dem Schwung geholfen werden kann." },
+      { src: "/vids/RollenD/Schritt2erkl2.MP4", alt: "Erklärung 2", desc: "Erklärung 2", resc: "Bei der Bauchwelle wird ein Stützgriff verwendet, weil so die Turnenden an der Stange bleiben." },
+      { src: "/vids/RollenD/Schritt2erkl3.MP4", alt: "Erklärung 3", desc: "Erklärung 3", resc: "Selbständig können Kindern den Felgaufzug machen, indem sie einen Gymnastikball zur Hilfe nehmen." }
     ],
-    image3: "/vids/RollenD/Schritt3bild.jpeg",
+    image3: "/vids/RollenD/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/RollenD/Schritt3einfach.mp4", alt: "Übung Einfach 1", desc: "Rolle vor- und rückwärts", resc: "Rolle vor- und rückwärts" },
-      { src: "/vids/RollenD/Schritt3einfach2.mp4", alt: "Übung Einfach 2", desc: "Rolle vor- und rückwärts", resc: "Rolle vor- und rückwärts" },
-      { src: "/vids/RollenD/Schritt3mittel.mp4", alt: "Übung Mittel", desc: "Rad auf beide Seiten", resc: "Rad auf beide Seiten" },
-      { src: "/vids/RollenD/Schritt3schwer.mp4", alt: "Übung Schwer", desc: "Handstandabrollen", resc: "Handstandabrollen" },
-      { src: "/vids/RollenD/Schritt3erkl.mp4", alt: "Erklärungen", desc: "Erklärungen", resc: "Beim Handstandabrollen wird ein Klammergriff verwendet, damit die Turnenden gut im Handstand stehen können. Tipp: Beim Abrollen kann langsam mit nach unten gegangen werden. → Wichtig, immer den Kopf einziehen." }
+      { src: "/vids/RollenD/Schritt3einfach.MP4", alt: "Übung Einfach 1", desc: "Rolle vor- und rückwärts", resc: "Rolle vor- und rückwärts" },
+      { src: "/vids/RollenD/Schritt3einfach2.MP4", alt: "Übung Einfach 2", desc: "Rolle vor- und rückwärts", resc: "Rolle vor- und rückwärts" },
+      { src: "/vids/RollenD/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Rad auf beide Seiten", resc: "Rad auf beide Seiten" },
+      { src: "/vids/RollenD/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Handstandabrollen", resc: "Handstandabrollen" },
+      { src: "/vids/RollenD/Schritt3erkl.MP4", alt: "Erklärungen", desc: "Erklärungen", resc: "Beim Handstandabrollen wird ein Klammergriff verwendet, damit die Turnenden gut im Handstand stehen können. Tipp: Beim Abrollen kann langsam mit nach unten gegangen werden. → Wichtig, immer den Kopf einziehen." }
     ],
-    image4: "/vids/RollenD/Schritt4bild.jpeg",
+    image4: "/vids/RollenD/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/RollenD/Schritt4einfach.mp4", alt: "Übung Einfach", desc: "Rolle aus dem Stand", resc: "Rolle aus dem Stand" },
-      { src: "/vids/RollenD/Schritt4mittel.mp4", alt: "Übung Mittel", desc: "Sprungrolle", resc: "Sprungrolle" },
-      { src: "/vids/RollenD/Schritt4schwer.mp4", alt: "Übung Schwer", desc: "Rückwärtsrolle", resc: "Rückwärtsrolle" },
+      { src: "/vids/RollenD/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Rolle aus dem Stand", resc: "Rolle aus dem Stand" },
+      { src: "/vids/RollenD/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Sprungrolle", resc: "Sprungrolle" },
+      { src: "/vids/RollenD/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Rückwärtsrolle", resc: "Rückwärtsrolle" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wichtig zu beachten ist, dass das Kinn immer bei der Brust ist, so wird das Rollen einfacher." }
     ],
   }
@@ -45,7 +45,7 @@ function MediaItem({ item, isExpanded, onToggle }) {
       <div className="gallery">
         {isExpanded ? (
           <>
-            {item.src && item.src.endsWith('.mp4') ? (
+            {item.src && item.src.endsWith('.MP4') ? (
               <video
                 width={400}
                 height={300}
@@ -94,8 +94,8 @@ export default function Page() {
       <div className="flex-container">
         <div className="ame">
           <h2>Bahnenbild</h2>
-          <a href="/vids/RollenD/GanzBahn.jpeg" target="_blank">
-            <img src="/vids/RollenD/GanzBahn.jpeg" alt="Gesamte Bahn" />
+          <a href="/vids/RollenD/GanzBahn.JPEG" target="_blank">
+            <img src="/vids/RollenD/GanzBahn.JPEG" alt="Gesamte Bahn" />
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p style={{ margin: "0 2.75rem" }}>Station 1</p> <p style={{ margin: "0 2.75rem" }}>Station 2</p> <p style={{ margin: "0 2.75rem" }}>Station 3</p> <p style={{ margin: "0 2.75rem" }}>Station 4</p>

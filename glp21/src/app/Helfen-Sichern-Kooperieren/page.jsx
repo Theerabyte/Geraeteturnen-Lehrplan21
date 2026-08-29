@@ -4,32 +4,32 @@ import React, { useState } from 'react';
 
 const stepsData = [
   {
-    image1: "/vids/HelfenSichern/Schritt1bild.jpeg",
+    image1: "/vids/HelfenSichern/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/HelfenSichern/Schritt1einfach.mp4", alt: "Übung Einfach", desc: "Handstand", resc: "Handstand" },
-      { src: "/vids/HelfenSichern/Schritt1mittel.mp4", alt: "Übung Mittel", desc: "Handstandabrollen", resc: "Handstandabrollen" },
-      { src: "/vids/HelfenSichern/Schritt1schwer.mp4", alt: "Übung Schwer", desc: "Kopfstand", resc: "Kopfstand" },
+      { src: "/vids/HelfenSichern/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Handstand", resc: "Handstand" },
+      { src: "/vids/HelfenSichern/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Handstandabrollen", resc: "Handstandabrollen" },
+      { src: "/vids/HelfenSichern/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Kopfstand", resc: "Kopfstand" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Hier sollen die Kinder Klammergriffe verwenden, so haben sie optimalen Halt." }
     ],
-    image2: "/vids/HelfenSichern/Schritt2bild.jpeg",
+    image2: "/vids/HelfenSichern/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/HelfenSichern/Schritt2einfach.mp4", alt: "Übung Einfach", desc: "Vorschwung", resc: "Vorschwung" },
-      { src: "/vids/HelfenSichern/Schritt2mittel.mp4", alt: "Übung Mittel", desc: "Bauchwelle", resc: "Bauchwelle" },
-      { src: "/vids/HelfenSichern/Schritt2schwer.mp4", alt: "Übung Schwer", desc: "Felgaufzug", resc: "Felgaufzug" },
+      { src: "/vids/HelfenSichern/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Vorschwung", resc: "Vorschwung" },
+      { src: "/vids/HelfenSichern/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Bauchwelle", resc: "Bauchwelle" },
+      { src: "/vids/HelfenSichern/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Felgaufzug", resc: "Felgaufzug" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Beim Vorschwung wird der Klammergriff verwendet. Bei der Bauchwelle darf das Seil nicht zu locker sein und es muss darauf geachtet werden, dass es in die richtige Richtung gedreht wird. Beim Felgaufzug sollen die Kinder den Drehgriff verwenden." }
     ],
-    image3: "/vids/HelfenSichern/Schritt3bild.jpeg",
+    image3: "/vids/HelfenSichern/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/HelfenSichern/Schritt3einfach.mp4", alt: "Übung Einfach", desc: "Türmli", resc: "Türmli" },
-      { src: "/vids/HelfenSichern/Schritt3mittel.mp4", alt: "Übung Mittel", desc: "Flieger", resc: "Flieger" },
-      { src: "/vids/HelfenSichern/Schritt3schwer.mp4", alt: "Übung Schwer", desc: "Sternheber", resc: "Sternheber" },
+      { src: "/vids/HelfenSichern/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Türmli", resc: "Türmli" },
+      { src: "/vids/HelfenSichern/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Flieger", resc: "Flieger" },
+      { src: "/vids/HelfenSichern/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Sternheber", resc: "Sternheber" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Mit mutigen Kindern kann auch der Freihändige Flieger geübt werden. Hier sollte eine Lehrperson dem Kind nahe am Körperschwerpunkt helfen." }
     ],
-    image4: "/vids/HelfenSichern/Schritt4bild.jpeg",
+    image4: "/vids/HelfenSichern/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/HelfenSichern/Schritt4einfach.mp4", alt: "Übung Einfach", desc: "Handstandabrollen", resc: "Handstandabrollen" },
-      { src: "/vids/HelfenSichern/Schritt4mittel.mp4", alt: "Übung Mittel", desc: "Handstandaufgang", resc: "Handstandaufgang" },
-      { src: "/vids/HelfenSichern/Schritt4schwer.mp4", alt: "Übung Schwer", desc: "Feldaufschwung mit Stütz vorlings am hohen Holm", resc: "Feldaufschwung mit Stütz vorlings am hohen Holm" },
+      { src: "/vids/HelfenSichern/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Handstandabrollen", resc: "Handstandabrollen" },
+      { src: "/vids/HelfenSichern/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Handstandaufgang", resc: "Handstandaufgang" },
+      { src: "/vids/HelfenSichern/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Feldaufschwung mit Stütz vorlings am hohen Holm", resc: "Feldaufschwung mit Stütz vorlings am hohen Holm" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Die Kinder verwenden hier hauptsächlich Klammergriffe, ausser beim Felgaufzug, da empfiehlt sich ein Drehgriff." }
     ],
   }
@@ -41,7 +41,7 @@ function MediaItem({ item, isExpanded, onToggle }) {
       <div className="gallery">
         {isExpanded ? (
           <>
-            {item.src && item.src.endsWith('.mp4') ? (
+            {item.src && item.src.endsWith('.MP4') ? (
               <video
                 width={400}
                 height={300}
@@ -90,8 +90,8 @@ export default function Page() {
       <div className="flex-container">
         <div className="ame">
           <h2>Bahnenbild</h2>
-          <a href="/vids/HelfenSichern/GanzeBahn.jpeg" target="_blank">
-            <img src="/vids/HelfenSichern/GanzeBahn.jpeg" alt="Gesamte Bahn" />
+          <a href="/vids/HelfenSichern/GanzeBahn.JPEG" target="_blank">
+            <img src="/vids/HelfenSichern/GanzeBahn.JPEG" alt="Gesamte Bahn" />
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p style={{ margin: "0 2.75rem" }}>Station 1</p> <p style={{ margin: "0 2.75rem" }}>Station 2</p> <p style={{ margin: "0 2.75rem" }}>Station 3</p> <p style={{ margin: "0 2.75rem" }}>Station 4</p>

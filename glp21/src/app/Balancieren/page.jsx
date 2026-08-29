@@ -18,18 +18,18 @@ const stepsData = [
       { src: "/vids/Balacieren/Schritt2schwer.mov", alt: "Übung Schwer", desc: "Standwaage", resc: "Standwaage" },
       { src: "/vids/Balacieren/Schritt2erkl.mov", alt: "Erklärungen", desc: "Erklärungen", resc: "Hilfsgriffe: Bei der Standwaage sollte der Stützgriff verwendet werden und möglichst nahe am Körperschwerpunkt gehalten werden. Kinder können sich auch selber helfen, indem sie sich die Hand geben und so dem Gleichgewicht helfen." }
     ],
-    image3: "/vids/Balacieren/Schritt3bild.jpeg",
+    image3: "/vids/Balacieren/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/Balacieren/Schritt3einfach.mp4", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
-      { src: "/vids/Balacieren/Schritt3mittel.mp4", alt: "Übung Mittel", desc: "Seitwärts darüber laufen", resc: "Seitwärts darüber laufen" },
-      { src: "/vids/Balacieren/Schritt3schwer.mp4", alt: "Übung Schwer", desc: "Standwaage", resc: "Standwaage" },
+      { src: "/vids/Balacieren/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
+      { src: "/vids/Balacieren/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Seitwärts darüber laufen", resc: "Seitwärts darüber laufen" },
+      { src: "/vids/Balacieren/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Standwaage", resc: "Standwaage" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn die Kinder sehr unsicher sind, kann der Barren zu Beginn auch geradegestellt werden." }
     ],
-    image4: "/vids/Balacieren/Schritt4bild.jpeg",
+    image4: "/vids/Balacieren/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/Balacieren/Schritt4einfach.mp4", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
-      { src: "/vids/Balacieren/Schritt4mittel.mp4", alt: "Übung Mittel", desc: "Auf den Knien darüber und evtl. Jemanden kreuzen", resc: "Auf den Knien darüber und evtl. Jemanden kreuzen" },
-      { src: "/vids/Balacieren/Schritt4schwer.mp4", alt: "Übung Schwer", desc: "Kreativ mit Bällen", resc: "Kreativ mit Bällen" },
+      { src: "/vids/Balacieren/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
+      { src: "/vids/Balacieren/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Auf den Knien darüber und evtl. Jemanden kreuzen", resc: "Auf den Knien darüber und evtl. Jemanden kreuzen" },
+      { src: "/vids/Balacieren/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Kreativ mit Bällen", resc: "Kreativ mit Bällen" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei Bedarf können die Bänkli zu Beginn auch andersrum stehen." }
     ],
   }
@@ -41,7 +41,7 @@ function MediaItem({ item, isExpanded, onToggle }) {
       <div className="gallery">
         {isExpanded ? (
           <>
-            {item.src && item.src.endsWith('.mp4') ? (
+            {item.src && item.src.endsWith('.MP4') ? (
               <video
                 width={400}
                 height={300}
