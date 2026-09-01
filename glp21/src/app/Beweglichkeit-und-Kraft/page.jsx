@@ -91,7 +91,7 @@ export default function Page() {
         <div className="ame">
           <h2>Bahnenbild</h2>
           <a href="/vids/BeweglichkeitKraft/GanzeBahn.JPEG" target="_blank">
-            <img src="/vids/BeweglichkeitKraft/GanzeBahn.JPEG" alt="Gesamte Bahn" />
+            <img src="/vids/BeweglichkeitKraft/GanzeBahn.JPEG" alt="Gesamte Bahn" style={{ flex: '0 0 auto', maxWidth: '100%'}}/>
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p style={{ margin: "0 2.75rem" }}>Station 1</p> <p style={{ margin: "0 2.75rem" }}>Station 2</p> <p style={{ margin: "0 2.75rem" }}>Station 3</p> <p style={{ margin: "0 2.75rem" }}>Station 4</p>
