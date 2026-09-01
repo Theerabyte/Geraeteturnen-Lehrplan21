@@ -35,9 +35,9 @@ button {
   overflow: hidden;
   text-decoration: none;
   color: white;
-  background-color: #D6ABAB;
+  background-color: #CB0000;
   border-radius: 2rem;
-  border-color: #CB0000;
+  border-color: #800814;
   border-width: 0.5em;
   text-align: center;
   cursor: pointer;
@@ -369,12 +369,11 @@ b {
   width: 100%;
   height: auto;
   padding: 20px;
-  background: #6b0912;
-  background: linear-gradient(180deg, rgba(107, 9, 18, 1) 1%, rgba(203, 0, 0, 1) 95%);
+  background: #F2E9E9;
 }
 
 .modal-content {
-  color: #D6ABAB;
+  color: #d6abab;
   font-family: Futura;
   background: #6b0912;
   background: linear-gradient(180deg, rgba(107, 9, 18, 1) 1%, rgba(203, 0, 0, 1) 95%);
