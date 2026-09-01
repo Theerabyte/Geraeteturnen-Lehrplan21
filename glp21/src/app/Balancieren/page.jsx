@@ -20,9 +20,9 @@ const stepsData = [
     ],
     image3: "/vids/Balacieren/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/Balacieren/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
-      { src: "/vids/Balacieren/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Seitwärts darüber laufen", resc: "Seitwärts darüber laufen" },
-      { src: "/vids/Balacieren/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Standwaage", resc: "Standwaage" },
+      { src: "/vids/Balacieren/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Darüber laufen", resc: "einfach: Darüber laufen" },
+      { src: "/vids/Balacieren/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Seitwärts darüber laufen", resc: "mittel: Seitwärts darüber laufen" },
+      { src: "/vids/Balacieren/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Standwaage", resc: "schwer: Standwaage" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn die Kinder sehr unsicher sind, kann der Barren zu Beginn auch geradegestellt werden." }
     ],
     image4: "/vids/Balacieren/Schritt4bild.JPEG",
