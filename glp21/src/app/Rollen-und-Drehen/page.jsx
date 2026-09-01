@@ -94,8 +94,8 @@ export default function Page() {
       <div className="flex-container">
         <div className="ame">
           <h2>Bahnenbild</h2>
-          <a href="/vids/RollenD/GanzBahn.JPEG" target="_blank">
-            <img src="/vids/RollenD/GanzBahn.JPEG" alt="Gesamte Bahn" />
+          <a href="/vids/RollenD/GanzeBahn.jpeg" target="_blank">
+            <img src="/vids/RollenD/GanzBahn.jpeg" alt="Gesamte Bahn" />
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p style={{ margin: "0 2.75rem" }}>Station 1</p> <p style={{ margin: "0 2.75rem" }}>Station 2</p> <p style={{ margin: "0 2.75rem" }}>Station 3</p> <p style={{ margin: "0 2.75rem" }}>Station 4</p>
