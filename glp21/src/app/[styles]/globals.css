@@ -198,6 +198,7 @@ nav .logo {
   height: 100vh;
   background: #A00000;
   color: #F2E9E9;
+  position: fixed;
   z-index: 1;
   padding: .5rem 0;
   display: flex;

@@ -27,26 +27,30 @@ function Bav() {
 	}, []);
 
 	return (
-		<div id="impressumModal" className="modal">
-			<div className="modal-content">
-				<span className="close" onClick={handleCloseModal}>&times;</span>
-				<div className="bgc" style={{ whiteSpace: "pre-line" }}>
-					<h2>{t.impressum}</h2>
-					<br />
-					<h3>{t.contact}</h3>
-					<p>{t.email}<br />{t.phone}</p>
-					<br />
-					<h3>{t.contentResponsibility}</h3>
-					<p>{t.contentDetails}</p>
-					<br />
-					<h3>{t.liability}</h3>
-					<p>{t.liabilityText}</p>
-					<br />
-					<h3>{t.copyright}</h3>
-					<p>{t.copyrightText}</p>
+		<>
+			<div id="impressumModal" className="modal">
+				<div className="modal-content">
+					<span className="close" onClick={handleCloseModal}>&times;</span>
+					<div className="bgc" style={{ whiteSpace: "pre-line" }}>
+						<h2>impressum</h2>
+						<br />
+						<h3>contact</h3>
+						<p>email<br />phone</p>
+						<br />
+						<h3>contentResponsibility</h3>
+						<p>contentDetails</p>
+						<br />
+						<h3>liability</h3>
+						<p>liabilityText</p>
+						<br />
+						<h3>copyright</h3>
+						<p>copyrightText</p>
+					</div>
 				</div>
 			</div>
-		</div>
+
+			<button id="impressumButton" style={{ marginLeft: "20%" }} onClick={handleImpressumClick}>impressumButton</button>
+		</>
 	)
 }
 
