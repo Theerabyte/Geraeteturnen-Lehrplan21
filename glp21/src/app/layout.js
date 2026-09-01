@@ -9,11 +9,13 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
-      <body style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', gap: '3rem' }}>
-        <NavL />
-        <main style={{ flex: 1 }}>
-          {children}
-        </main>
+      <body>
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', gap: '3rem' }}>
+          <NavL />
+          <main style={{ flex: 1, padding: '20px'  }}>
+            {children}
+          </main>
+        </div>
       </body>
     </html >
   );
