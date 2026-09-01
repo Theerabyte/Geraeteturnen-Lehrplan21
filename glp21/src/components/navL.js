@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 import { ChevronDown, ChevronRight, LayoutDashboard, BicepsFlexed, Dumbbell, BriefcaseMedical } from 'lucide-react';
+import Bav from './Bav';
 
 export default function SideNav() {
     const pathname = usePathname();
@@ -120,7 +121,8 @@ export default function SideNav() {
                     <small>© {new Date().getFullYear()} </small>
                     <br />
                     <a href="https://be.lehrplan.ch/index.php?code=b%7C9%7C0%7C2" target="_blank" rel="noopener noreferrer" className="hover:underline" style={{ color: '#F2E9E9', padding: '4px 16px' }}> Zum Lehrplan 21 </a>
-                    <a href="/MAT" target="_blank" className="hover:underline" style={{ color: '#F2E9E9', padding: '4px 16px' }}> Über die Arbeit </a>
+                    <a href="/Mat" target="_blank" className="hover:underline" style={{ color: '#F2E9E9', padding: '4px 16px' }}> Über die Arbeit </a>
+                    <Bav />
                 </div>
             </div>
         </aside>
