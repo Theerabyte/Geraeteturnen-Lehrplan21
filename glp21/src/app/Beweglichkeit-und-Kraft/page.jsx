@@ -7,8 +7,8 @@ const stepsData = [
     image1: "/vids/BeweglichkeitKraft/Schritt1bild.JPEG",
     items1: [
       { src: "/vids/BeweglichkeitKraft/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Liegestützdrehen", resc: "einfach: Liegestützdrehen" },
-      { src: "/vids/BeweglichkeitKraft/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Liegestützposition auf einem Ball", resc: "mittel: Liegestützposition auf einem Ball" },
-      { src: "/vids/BeweglichkeitKraft/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Grätsche mit Übungen", resc: "schwer: Grätsche mit Übungen" },
+      { src: "/vids/BeweglichkeitKraft/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Grätsche mit Drehen", resc: "mittel: Grätsche mit Drehen" },
+      { src: "/vids/BeweglichkeitKraft/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Liegestützposition auf einem Ball", resc: "schwer: Liegestützposition auf einem Ball" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Bei der Liegestütze sollte ein klares I ersichtlich sein." }
     ],
     image2: "/vids/BeweglichkeitKraft/Schritt2bild.JPEG",
