@@ -6,31 +6,31 @@ const stepsData = [
   {
     image1: "/vids/BeweglichkeitKraft/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/BeweglichkeitKraft/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Liegestützdrehen", resc: "Liegestützdrehen" },
-      { src: "/vids/BeweglichkeitKraft/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Liegestützposition auf einem Ball", resc: "Liegestützposition auf einem Ball" },
-      { src: "/vids/BeweglichkeitKraft/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Grätsche mit Übungen", resc: "Grätsche mit Übungen" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei der Liegestütze sollte ein klares I ersichtlich sein." }
+      { src: "/vids/BeweglichkeitKraft/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Liegestützdrehen", resc: "einfach: Liegestützdrehen" },
+      { src: "/vids/BeweglichkeitKraft/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Liegestützposition auf einem Ball", resc: "mittel: Liegestützposition auf einem Ball" },
+      { src: "/vids/BeweglichkeitKraft/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Grätsche mit Übungen", resc: "schwer: Grätsche mit Übungen" },
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Bei der Liegestütze sollte ein klares I ersichtlich sein." }
     ],
     image2: "/vids/BeweglichkeitKraft/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/BeweglichkeitKraft/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Vorhandstütz", resc: "Vorhandstütz" },
-      { src: "/vids/BeweglichkeitKraft/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Rückhandstütz", resc: "Rückhandstütz" },
-      { src: "/vids/BeweglichkeitKraft/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Liegestützen", resc: "Liegestützen" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei allen 3 Übungen muss von den Turnenden aus den Schultern gestossen werden, dabei muss der Bauch angespannt sein." }
+      { src: "/vids/BeweglichkeitKraft/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Vorhandstütz", resc: "einfach: Vorhandstütz" },
+      { src: "/vids/BeweglichkeitKraft/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Rückhandstütz", resc: "mittel: Rückhandstütz" },
+      { src: "/vids/BeweglichkeitKraft/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Liegestützen", resc: "schwer: Liegestützen" },
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Bei allen 3 Übungen muss von den Turnenden aus den Schultern gestossen werden, dabei muss der Bauch angespannt sein." }
     ],
     image3: "/vids/BeweglichkeitKraft/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/BeweglichkeitKraft/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Handstand", resc: "Handstand" },
-      { src: "/vids/BeweglichkeitKraft/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Klappmesser", resc: "Klappmesser" },
-      { src: "/vids/BeweglichkeitKraft/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Brücke", resc: "Brücke" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn die Kinder unsicher sind, kann beim Handstand durch einen Klammergriff geholfen werden." }
+      { src: "/vids/BeweglichkeitKraft/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Handstand", resc: "einfach: Handstand" },
+      { src: "/vids/BeweglichkeitKraft/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Klappmesser", resc: "mittel: Klappmesser" },
+      { src: "/vids/BeweglichkeitKraft/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Brücke", resc: "schwer: Brücke" },
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wenn die Kinder unsicher sind, kann beim Handstand durch einen Klammergriff geholfen werden." }
     ],
     image4: "/vids/BeweglichkeitKraft/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/BeweglichkeitKraft/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Springen mit Stütz", resc: "Springen mit Stütz" },
-      { src: "/vids/BeweglichkeitKraft/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Aufsprung mit Stütz", resc: "Aufsprung mit Stütz" },
-      { src: "/vids/BeweglichkeitKraft/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Überschlag", resc: "Überschlag" },
-      { src: "/vids/BeweglichkeitKraft/Schritt4erklärung.MP4", alt: "Erklärungen", desc: "Erklärungen", resc: "Beim Überschlag wird der Kreuzgriff verwendet, so wird der turnenden Person das Drehen erleichtert." }
+      { src: "/vids/BeweglichkeitKraft/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Springen mit Stütz", resc: "einfach: Springen mit Stütz" },
+      { src: "/vids/BeweglichkeitKraft/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Aufsprung mit Stütz", resc: "mittel: Aufsprung mit Stütz" },
+      { src: "/vids/BeweglichkeitKraft/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Überschlag", resc: "schwer: Überschlag" },
+      { src: "/vids/BeweglichkeitKraft/Schritt4erklärung.MP4", alt: "Erklärungen", desc: "Erklärung Überschalg", resc: "Beim Überschlag wird der Kreuzgriff verwendet, so wird der turnenden Person das Drehen erleichtert." }
     ],
   }
 ];
@@ -105,11 +105,11 @@ export default function Page() {
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             Die Gerätebahn gehört zu der Kategorie «Beweglichkeit und Kraft» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
             <br /><b>Sicherheitshinweis:</b><br />
-            Wichtig zu beachten ist, dass beim Station 4 immer eine erwachsene Person anwesend ist für die Sicherheit der Turnenden.
+            Wichtig zu beachten ist, dass bei der Station 4 immer eine erwachsene Person für die Sicherheit der Turnenden anwesend ist.
           </div>
         </div>
         <div className="abme">
-          <h2>Materialliste:</h2>
+          <h2>Materialliste</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             <b>Station 1:</b> <br />
             <li style={{ marginLeft: '24px' }}>4x dünne Matten (Leichtturnmatten)</li>
