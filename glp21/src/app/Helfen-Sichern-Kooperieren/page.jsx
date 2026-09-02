@@ -91,7 +91,7 @@ export default function Page() {
       <div className="flex-container">
         <div className="ame">
           <h2>Bahnenbild</h2>
-          <a href="/vids/HelfenSichern/GanzeBahn.JPEG" target="_blank">
+          <a href="/vids/HelfenSichern/GanzeBahn.jpeg" target="_blank">
             <img src="/vids/HelfenSichern/GanzeBahn.JPEG" alt="Gesamte Bahn" />
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
