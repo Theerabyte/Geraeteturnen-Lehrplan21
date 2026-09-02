@@ -9,7 +9,7 @@ const stepsData = [
       { src: "/vids/Balacieren/Schritt1einfach.mov", alt: "Übung Einfach", desc: "einfach: Darüber laufen vor- und rückwärts", resc: "einfach: Darüber laufen vor- und rückwärts" },
       { src: "/vids/Balacieren/Schritt1mittel.mov", alt: "Übung Mittel", desc: "mittel: Springen mit Standwaagen", resc: "mittel: Springen mit Standwaagen" },
       { src: "/vids/Balacieren/Schritt1schwer.mov", alt: "Übung Schwer", desc: "schwer: Handstand an der Sprossenwand", resc: "schwer: Handstand an der Sprossenwand" },
-      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Damit die Motivation vorhanden bleibt, können die Seile selber in Formen gelegt werden und zusätzliche ergänzt werden." }
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Damit die Motivation vorhanden bleibt, können die Seile selber in Formen gelegt und zusätzliche ergänzt werden." }
     ],
     image2: "/vids/Balacieren/Schritt2bild.jpeg",
     items2: [
@@ -23,7 +23,7 @@ const stepsData = [
       { src: "/vids/Balacieren/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Darüber laufen", resc: "einfach: Darüber laufen" },
       { src: "/vids/Balacieren/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Seitwärts darüber laufen", resc: "mittel: Seitwärts darüber laufen" },
       { src: "/vids/Balacieren/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Standwaage", resc: "schwer: Standwaage" },
-      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wenn die Kinder sehr unsicher sind, kann der Barren zu Beginn auch geradegestellt werden." }
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wenn die Kinder sehr unsicher sind, kann der Barren zu Beginn geradegestellt werden." }
     ],
     image4: "/vids/Balacieren/Schritt4bild.JPEG",
     items4: [
@@ -108,7 +108,7 @@ export default function Page() {
           </div>
         </div>
         <div className="abme">
-          <h2>Materialliste:</h2>
+          <h2>Materialliste</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             <b>Station 1:</b> <br />
             <li style={{ marginLeft: '24px' }}>Sprossenwand</li>
@@ -123,6 +123,7 @@ export default function Page() {
             <li style={{ marginLeft: '24px' }}>3x dünne Matten (Leichtturnmatten)</li>
             <b>Station 4:</b> <br />
             <li style={{ marginLeft: '24px' }}>2x Bänkli</li>
+            <li style={{ marginLeft: '24px' }}>verschiedene Bälle</li>
           </div>
         </div>
       </div>
