@@ -34,7 +34,7 @@ const stepsData = [
       { src: "/vids/RollenD/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Rolle aus dem Stand", resc: "einfach: Rolle aus dem Stand" },
       { src: "/vids/RollenD/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Sprungrolle", resc: "mittel: Sprungrolle" },
       { src: "/vids/RollenD/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Rückwärtsrolle", resc: "schwer: Rückwärtsrolle" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wichtig zu beachten ist, dass das Kinn immer bei der Brust ist, so wird das Rollen einfacher." }
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wichtig zu beachten ist, dass das Kinn immer bei der Brust ist, so wird das Rollen einfacher." }
     ],
   }
 ];
