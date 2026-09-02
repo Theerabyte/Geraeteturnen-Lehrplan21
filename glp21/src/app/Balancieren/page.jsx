@@ -6,16 +6,16 @@ const stepsData = [
   {
     image1: "/vids/Balacieren/Schritt1bild.jpg",
     items1: [
-      { src: "/vids/Balacieren/Schritt1einfach.mov", alt: "Übung Einfach", desc: "Darüber laufen vor- und rückwärts", resc: "Darüber laufen vor- und rückwärts" },
-      { src: "/vids/Balacieren/Schritt1mittel.mov", alt: "Übung Mittel", desc: "Springen mit Standwaagen", resc: "Springen mit Standwaagen" },
-      { src: "/vids/Balacieren/Schritt1schwer.mov", alt: "Übung Schwer", desc: "Handstand an der Sprossenwand", resc: "Handstand an der Sprossenwand" },
+      { src: "/vids/Balacieren/Schritt1einfach.mov", alt: "Übung Einfach", desc: "einfach: Darüber laufen vor- und rückwärts", resc: "einfach: Darüber laufen vor- und rückwärts" },
+      { src: "/vids/Balacieren/Schritt1mittel.mov", alt: "Übung Mittel", desc: "mittel: Springen mit Standwaagen", resc: "mittel: Springen mit Standwaagen" },
+      { src: "/vids/Balacieren/Schritt1schwer.mov", alt: "Übung Schwer", desc: "schwer: Handstand an der Sprossenwand", resc: "schwer: Handstand an der Sprossenwand" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Damit die Motivation vorhanden bleibt, können die Seile selber in Formen gelegt werden und zusätzliche ergänzt werden." }
     ],
     image2: "/vids/Balacieren/Schritt2bild.jpeg",
     items2: [
-      { src: "/vids/Balacieren/Schritt2einfach.mov", alt: "Übung Einfach", desc: "Darüber laufen vor- und rückwärts", resc: "Darüberlaufen vor- und rückwärts" },
-      { src: "/vids/Balacieren/Schritt2mittel.mov", alt: "Übung Mittel", desc: "Halbe und ganze Drehungen", resc: "Halbe und ganze Drehungen" },
-      { src: "/vids/Balacieren/Schritt2schwer.mov", alt: "Übung Schwer", desc: "Standwaage", resc: "Standwaage" },
+      { src: "/vids/Balacieren/Schritt2einfach.mov", alt: "Übung Einfach", desc: "einfach: Darüber laufen vor- und rückwärts", resc: "einfach: Darüberlaufen vor- und rückwärts" },
+      { src: "/vids/Balacieren/Schritt2mittel.mov", alt: "Übung Mittel", desc: "mittel: Halbe und ganze Drehungen", resc: "mittel: Halbe und ganze Drehungen" },
+      { src: "/vids/Balacieren/Schritt2schwer.mov", alt: "Übung Schwer", desc: "schwer: Standwaage", resc: "schwer: Standwaage" },
       { src: "/vids/Balacieren/Schritt2erkl.mov", alt: "Erklärungen", desc: "Erklärungen", resc: "Hilfsgriffe: Bei der Standwaage sollte der Stützgriff verwendet werden und möglichst nahe am Körperschwerpunkt gehalten werden. Kinder können sich auch selber helfen, indem sie sich die Hand geben und so dem Gleichgewicht helfen." }
     ],
     image3: "/vids/Balacieren/Schritt3bild.JPEG",
@@ -27,9 +27,9 @@ const stepsData = [
     ],
     image4: "/vids/Balacieren/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/Balacieren/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Darüber laufen", resc: "Darüber laufen" },
-      { src: "/vids/Balacieren/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Auf den Knien darüber und evtl. Jemanden kreuzen", resc: "Auf den Knien darüber und evtl. Jemanden kreuzen" },
-      { src: "/vids/Balacieren/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Kreativ mit Bällen", resc: "Kreativ mit Bällen" },
+      { src: "/vids/Balacieren/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Darüber laufen", resc: "einfach: Darüber laufen" },
+      { src: "/vids/Balacieren/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Auf den Knien darüber und evtl. Jemanden kreuzen", resc: "mittel: Auf den Knien darüber und evtl. Jemanden kreuzen" },
+      { src: "/vids/Balacieren/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Kreativ mit Bällen", resc: "schwer: Kreativ mit Bällen" },
       { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei Bedarf können die Bänkli zu Beginn auch andersrum stehen." }
     ],
   }
@@ -117,7 +117,7 @@ export default function Page() {
             <li style={{ marginLeft: '24px' }}>3x - 4x Sprungseile</li>
             <b>Station 2:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x tiefes Reck</li>
-            <li style={{ marginLeft: '24px' }}>2x dünne Matten (Leichtturnmatten)</li>
+            <li style={{ marginLeft: '24px' }}>1x dünne 16er-Matte (Niedersprungmatte)</li>
             <b>Station 3:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x Schulstufenbarren</li>
             <li style={{ marginLeft: '24px' }}>3x dünne Matten (Leichtturnmatten)</li>
