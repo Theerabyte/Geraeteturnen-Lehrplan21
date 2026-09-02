@@ -6,31 +6,31 @@ const stepsData = [
   {
     image1: "/vids/WagnisVerantwortung/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/WagnisVerantwortung/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Klettern auf allen Vieren", resc: "Klettern auf allen Vieren" },
-      { src: "/vids/WagnisVerantwortung/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Klettern mit Niedersprung", resc: "Klettern mit Niedersprung" },
-      { src: "/vids/WagnisVerantwortung/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Hochhangeln mit Niedersprung", resc: "Hochhangeln mit Niedersprung" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wichtig ist, dass die Kinder beim Niedersprung erst nach unten schauen. Tipp: Bei rutschigen Händen ist Magnesium hilfreich." }
+      { src: "/vids/WagnisVerantwortung/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Klettern auf allen Vieren", resc: "einfach: Klettern auf allen Vieren" },
+      { src: "/vids/WagnisVerantwortung/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Klettern mit Niedersprung", resc: "mittel: Klettern mit Niedersprung" },
+      { src: "/vids/WagnisVerantwortung/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Hochhangeln mit Niedersprung", resc: "schwer: Hochhangeln mit Niedersprung" },
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wichtig ist, dass die Kinder beim Niedersprung erst nach unten schauen. Tipp: Bei rutschigen Händen ist Magnesium hilfreich." }
     ],
     image2: "/vids/WagnisVerantwortung/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/WagnisVerantwortung/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Streckspünge mit Pausen", resc: "Streckspünge mit Pausen" },
-      { src: "/vids/WagnisVerantwortung/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Strecksprünge", resc: "Strecksprünge" },
-      { src: "/vids/WagnisVerantwortung/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Strecksprünge mit einer Sprungrolle", resc: "Strecksprünge mit einer Sprungrolle" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei unsicheren Kindern kann durch eine Hand das Getrauen gefördert werden." }
+      { src: "/vids/WagnisVerantwortung/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Streckspünge mit Pausen", resc: "einfach: Streckspünge mit Pausen" },
+      { src: "/vids/WagnisVerantwortung/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Strecksprünge", resc: "mittel: Strecksprünge" },
+      { src: "/vids/WagnisVerantwortung/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Strecksprünge mit einer Sprungrolle", resc: "schwer: Strecksprünge mit einer Sprungrolle" },
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Bei unsicheren Kindern kann durch eine Hand das Vertrauen gefördert werden." }
     ],
     image3: "/vids/WagnisVerantwortung/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/WagnisVerantwortung/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Rutschen im Päckli mit einer Rolle", resc: "Rutschen im Päckli mit einer Rolle" },
-      { src: "/vids/WagnisVerantwortung/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Rutschen auf dem Rücken mit einer Rolle", resc: "Rutschen auf dem Rücken mit einer Rolle" },
-      { src: "/vids/WagnisVerantwortung/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Rutschen auf dem Bauch mit einer Rolle", resc: "Rutschen auf dem Bauch mit einer Rolle" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Durch das Verstellen der Höhe des Kastens kann das Bänkli steiler gemacht werden." }
+      { src: "/vids/WagnisVerantwortung/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Rutschen im Päckli mit einer Rolle", resc: "einfach: Rutschen im Päckli mit einer Rolle" },
+      { src: "/vids/WagnisVerantwortung/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Rutschen auf dem Rücken mit einer Rolle", resc: "mittel: Rutschen auf dem Rücken mit einer Rolle" },
+      { src: "/vids/WagnisVerantwortung/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Rutschen auf dem Bauch mit einer Rolle", resc: "schwer: Rutschen auf dem Bauch mit einer Rolle" },
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Durch das Verstellen der Höhe des Kastens kann das Bänkli steiler gemacht werden." }
     ],
     image4: "/vids/WagnisVerantwortung/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/WagnisVerantwortung/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Springen im Barren", resc: "Springen im Barren" },
-      { src: "/vids/WagnisVerantwortung/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Springen im Barren mit Niedersprung", resc: "Springen im Barren mit Niedersprung" },
-      { src: "/vids/WagnisVerantwortung/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Durchsprung im Barren", resc: "Durchsprung im Barren" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn Kinder den Niedersprung das erste Mal machen, kann man für die Sicherheit eine dünne Yogamatte über den Holmen legen." }
+      { src: "/vids/WagnisVerantwortung/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Springen im Barren", resc: "einfach: Springen im Barren" },
+      { src: "/vids/WagnisVerantwortung/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Springen im Barren mit Niedersprung", resc: "mittel: Springen im Barren mit Niedersprung" },
+      { src: "/vids/WagnisVerantwortung/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Durchsprung im Barren", resc: "schwer: Durchsprung im Barren" },
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wenn Kinder den Niedersprung das erste Mal machen, kann man für die Sicherheit eine dünne Yogamatte über den Holmen legen." }
     ],
   }
 ];
@@ -109,7 +109,7 @@ export default function Page() {
           </div>
         </div>
         <div className="abme">
-          <h2>Materialliste:</h2>
+          <h2>Materialliste</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             <b>Station 1:</b> <br />
             <li style={{ marginLeft: '24px' }}>Kletterstange</li>
