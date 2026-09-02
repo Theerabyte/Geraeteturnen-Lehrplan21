@@ -9,28 +9,28 @@ const stepsData = [
       { src: "/vids/Balacieren/Schritt1einfach.mov", alt: "Übung Einfach", desc: "einfach: Darüber laufen vor- und rückwärts", resc: "einfach: Darüber laufen vor- und rückwärts" },
       { src: "/vids/Balacieren/Schritt1mittel.mov", alt: "Übung Mittel", desc: "mittel: Springen mit Standwaagen", resc: "mittel: Springen mit Standwaagen" },
       { src: "/vids/Balacieren/Schritt1schwer.mov", alt: "Übung Schwer", desc: "schwer: Handstand an der Sprossenwand", resc: "schwer: Handstand an der Sprossenwand" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Damit die Motivation vorhanden bleibt, können die Seile selber in Formen gelegt werden und zusätzliche ergänzt werden." }
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Damit die Motivation vorhanden bleibt, können die Seile selber in Formen gelegt werden und zusätzliche ergänzt werden." }
     ],
     image2: "/vids/Balacieren/Schritt2bild.jpeg",
     items2: [
       { src: "/vids/Balacieren/Schritt2einfach.mov", alt: "Übung Einfach", desc: "einfach: Darüber laufen vor- und rückwärts", resc: "einfach: Darüberlaufen vor- und rückwärts" },
       { src: "/vids/Balacieren/Schritt2mittel.mov", alt: "Übung Mittel", desc: "mittel: Halbe und ganze Drehungen", resc: "mittel: Halbe und ganze Drehungen" },
       { src: "/vids/Balacieren/Schritt2schwer.mov", alt: "Übung Schwer", desc: "schwer: Standwaage", resc: "schwer: Standwaage" },
-      { src: "/vids/Balacieren/Schritt2erkl.mov", alt: "Erklärungen", desc: "Erklärungen", resc: "Hilfsgriffe: Bei der Standwaage sollte der Stützgriff verwendet werden und möglichst nahe am Körperschwerpunkt gehalten werden. Kinder können sich auch selber helfen, indem sie sich die Hand geben und so dem Gleichgewicht helfen." }
+      { src: "/vids/Balacieren/Schritt2erkl.mov", alt: "Erklärungen", desc: "Erklärung", resc: "Hilfsgriffe: Bei der Standwaage sollte der Stützgriff verwendet werden und möglichst nahe am Körperschwerpunkt gehalten werden. Kinder können sich auch selber helfen, indem sie sich die Hand geben und so dem Gleichgewicht helfen." }
     ],
     image3: "/vids/Balacieren/Schritt3bild.JPEG",
     items3: [
       { src: "/vids/Balacieren/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Darüber laufen", resc: "einfach: Darüber laufen" },
       { src: "/vids/Balacieren/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Seitwärts darüber laufen", resc: "mittel: Seitwärts darüber laufen" },
       { src: "/vids/Balacieren/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Standwaage", resc: "schwer: Standwaage" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Wenn die Kinder sehr unsicher sind, kann der Barren zu Beginn auch geradegestellt werden." }
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wenn die Kinder sehr unsicher sind, kann der Barren zu Beginn auch geradegestellt werden." }
     ],
     image4: "/vids/Balacieren/Schritt4bild.JPEG",
     items4: [
       { src: "/vids/Balacieren/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Darüber laufen", resc: "einfach: Darüber laufen" },
       { src: "/vids/Balacieren/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Auf den Knien darüber und evtl. Jemanden kreuzen", resc: "mittel: Auf den Knien darüber und evtl. Jemanden kreuzen" },
       { src: "/vids/Balacieren/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Kreativ mit Bällen", resc: "schwer: Kreativ mit Bällen" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Bei Bedarf können die Bänkli zu Beginn auch andersrum stehen." }
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Bei Bedarf können die Bänkli zu Beginn auch andersrum stehen." }
     ],
   }
 ];
