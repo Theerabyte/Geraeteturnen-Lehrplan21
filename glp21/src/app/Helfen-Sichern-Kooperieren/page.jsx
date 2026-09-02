@@ -6,10 +6,11 @@ const stepsData = [
   {
     image1: "/vids/HelfenSichern/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/HelfenSichern/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Handstand", resc: "Handstand" },
-      { src: "/vids/HelfenSichern/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Handstandabrollen", resc: "Handstandabrollen" },
-      { src: "/vids/HelfenSichern/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Kopfstand", resc: "Kopfstand" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Hier sollen die Kinder Klammergriffe verwenden, so haben sie optimalen Halt." }
+      { src: "/vids/HelfenSichern/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Türmli", resc: "Türmli" },
+      { src: "/vids/HelfenSichern/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Flieger", resc: "Flieger" },
+      { src: "/vids/HelfenSichern/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Sternheber", resc: "Sternheber" },
+      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Mit mutigen Kindern kann auch der Freihändige Flieger geübt werden. Hier sollte eine Lehrperson dem Kind nahe am Körperschwerpunkt helfen." }
+
     ],
     image2: "/vids/HelfenSichern/Schritt2bild.JPEG",
     items2: [
@@ -20,10 +21,10 @@ const stepsData = [
     ],
     image3: "/vids/HelfenSichern/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/HelfenSichern/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Türmli", resc: "Türmli" },
-      { src: "/vids/HelfenSichern/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Flieger", resc: "Flieger" },
-      { src: "/vids/HelfenSichern/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Sternheber", resc: "Sternheber" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Mit mutigen Kindern kann auch der Freihändige Flieger geübt werden. Hier sollte eine Lehrperson dem Kind nahe am Körperschwerpunkt helfen." }
+      { src: "/vids/HelfenSichern/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Handstand", resc: "Handstand" },
+      { src: "/vids/HelfenSichern/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Handstandabrollen", resc: "Handstandabrollen" },
+      { src: "/vids/HelfenSichern/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Kopfstand", resc: "Kopfstand" },
+      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Hier sollen die Kinder Klammergriffe verwenden, so haben sie optimalen Halt." }
     ],
     image4: "/vids/HelfenSichern/Schritt4bild.JPEG",
     items4: [
