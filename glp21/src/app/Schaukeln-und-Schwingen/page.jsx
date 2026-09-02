@@ -6,35 +6,35 @@ const stepsData = [
   {
     image1: "/vids/SchaukelnSchwingen/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/SchaukelnSchwingen/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Rückschwung und Vorschwung", resc: "Rückschwung und Vorschwung" },
-      { src: "/vids/SchaukelnSchwingen/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Rückschwung und Vorschwung mit Grätschsitz", resc: "Rückschwung und Vorschwung mit Grätschsitz" },
-      { src: "/vids/SchaukelnSchwingen/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Rückschwung und Vorschwung mit Wende zum Niedersprung", resc: "Rückschwung und Vorschwung mit Wende zum Niedersprung" },
-      { src: "/vids/SchaukelnSchwingen/Schritt1erkl1.MP4", alt: "Erklärung 1", desc: "Erklärung 1", resc: "Beim Schwingen am Barren kann der turnenden Person geholfen werden, indem eine Hand an der Schulter stabilisiert und die andere den Schwung kontrolliert." },
-      { src: "/vids/SchaukelnSchwingen/Schritt1erkl2.MP4", alt: "Erklärung 2", desc: "Erklärung 2", resc: "Beim Niedersprung wird ein Stützgriff verwendet, um die Turnenden dabei richtig zu leiten. So erfolgt ein verlangsamter Niedersprung." },
+      { src: "/vids/SchaukelnSchwingen/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Rückschwung und Vorschwung", resc: "einfach: Rückschwung und Vorschwung" },
+      { src: "/vids/SchaukelnSchwingen/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Rückschwung und Vorschwung mit Grätschsitz", resc: "mittel: Rückschwung und Vorschwung mit Grätschsitz" },
+      { src: "/vids/SchaukelnSchwingen/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Rückschwung und Vorschwung mit Wende zum Niedersprung", resc: "schwer: Rückschwung und Vorschwung mit Wende zum Niedersprung" },
+      { src: "/vids/SchaukelnSchwingen/Schritt1erkl1.MP4", alt: "Erklärung Schwingen", desc: "Erklärung Schwingen", resc: "Beim Schwingen am Barren kann der turnenden Person geholfen werden, indem eine Hand an der Schulter stabilisiert und die andere den Schwung kontrolliert." },
+      { src: "/vids/SchaukelnSchwingen/Schritt1erkl2.MP4", alt: "Erklärung Niedersprung", desc: "Erklärung Niedersprung", resc: "Beim Niedersprung wird ein Stützgriff verwendet, um die Turnenden dabei richtig zu leiten. So erfolgt ein verlangsamter Niedersprung." },
       { src: null, alt: "Erklärung 3", desc: "Erklärung 3", resc: "Tipp: Wenn das Schwingen noch unsicher ist, kann der Niedersprung auch aus dem Stand langsam geübt werden. Auch hier wird ein Stützgriff empfohlen." }
     ],
     image2: "/vids/SchaukelnSchwingen/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/SchaukelnSchwingen/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Vor- und Rückschweben", resc: "Vor- und Rückschweben" },
-      { src: "/vids/SchaukelnSchwingen/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Grätschwinkel mit Vorschwung", resc: "Grätschwinkel mit Vorschwung" },
-      { src: "/vids/SchaukelnSchwingen/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Rückschwung mit Grätschwinkel", resc: "Rückschwung mit Grätschwinkel" },
-      { src: "/vids/SchaukelnSchwingen/Schritt2erkl.MP4", alt: "Erklärungen", desc: "Erklärungen", resc: "Das Halten kann hier auf dem Schwedenkasten gemacht werden. Hierbei sollte ein Stützgriff verwendet werden. Wichtig, nicht an den Gelenken stützen, sondern nahe am Körper halten." }
+      { src: "/vids/SchaukelnSchwingen/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Vor- und Rückschweben", resc: "einfach: Vor- und Rückschweben" },
+      { src: "/vids/SchaukelnSchwingen/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Grätschwinkel mit Vorschwung", resc: "mittel: Grätschwinkel mit Vorschwung" },
+      { src: "/vids/SchaukelnSchwingen/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Rückschwung mit Grätschwinkel", resc: "schwer: Rückschwung mit Grätschwinkel" },
+      { src: "/vids/SchaukelnSchwingen/Schritt2erkl.MP4", alt: "Erklärung", desc: "Erklärung", resc: "Das Halten kann hier auf dem Schwedenkasten gemacht werden. Hierbei sollte ein Stützgriff verwendet werden. Wichtig, nicht an den Gelenken stützen, sondern nahe am Körper halten." }
     ],
     image3: "/vids/SchaukelnSchwingen/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/SchaukelnSchwingen/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Schwingen", resc: "Schwingen" },
-      { src: "/vids/SchaukelnSchwingen/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Schwingen mit Bällen", resc: "Schwingen mit Bällen" },
-      { src: "/vids/SchaukelnSchwingen/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Schwingen im Grätschwinkelsitz", resc: "Schwingen im Grätschwinkelsitz" },
-      { src: null, alt: "Erklärungen", desc: "Erklärungen", resc: "Hier kann sich frei ausgelebt werden und mit anderen Übungen ergänzt werden." }
+      { src: "/vids/SchaukelnSchwingen/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Schwingen", resc: "einfach: Schwingen" },
+      { src: "/vids/SchaukelnSchwingen/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Schwingen mit Bällen", resc: "mittel: Schwingen mit Bällen" },
+      { src: "/vids/SchaukelnSchwingen/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Schwingen im Grätschwinkelsitz", resc: "schwer: Schwingen im Grätschwinkelsitz" },
+      { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Hier kann sich frei ausgelebt werden und mit anderen Übungen ergänzt werden." }
     ],
     image4: "/vids/SchaukelnSchwingen/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/SchaukelnSchwingen/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Rück- und Vorschaukeln", resc: "Rück- und Vorschaukeln" },
-      { src: "/vids/SchaukelnSchwingen/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Rück- und Vorschaukeln mit halber Drehung", resc: "Rück- und Vorschaukeln mit halber Drehung" },
-      { src: "/vids/SchaukelnSchwingen/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Schaukeln mit Sturzhang", resc: "Schaukeln mit Sturzhang" },
-      { src: "/vids/SchaukelnSchwingen/Schritt4erkl1.MP4", alt: "Erklärung 1", desc: "Erklärung 1", resc: "Beim Rück- und Vorschaukeln kann durch ein Anschieben das Schaukeln vereinfacht werden" },
-      { src: "/vids/SchaukelnSchwingen/Schritt4erkl2.MP4", alt: "Erklärung 2", desc: "Erklärung 2", resc: "Bei der halben Drehung wird an den Füssen ein Klammergriff verwendet, um den Turnenden so ein Gefühl für die Drehung zu geben." },
-      { src: "/vids/SchaukelnSchwingen/Schritt4erkl3.MP4", alt: "Erklärung 3", desc: "Erklärung 3", resc: "Beim Sturzhang wird der Drehgriff verwendet, um den Schwung zu verstärken." }
+      { src: "/vids/SchaukelnSchwingen/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Rück- und Vorschaukeln", resc: "einfach: Rück- und Vorschaukeln" },
+      { src: "/vids/SchaukelnSchwingen/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Rück- und Vorschaukeln mit halber Drehung", resc: "mittel: Rück- und Vorschaukeln mit halber Drehung" },
+      { src: "/vids/SchaukelnSchwingen/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Schaukeln mit Sturzhang", resc: "schwer: Schaukeln mit Sturzhang" },
+      { src: "/vids/SchaukelnSchwingen/Schritt4erkl1.MP4", alt: "Erklärung 1", desc: "Erklärung Anschieben", resc: "Beim Rück- und Vorschaukeln kann durch Anschieben das Schaukeln vereinfacht werden" },
+      { src: "/vids/SchaukelnSchwingen/Schritt4erkl2.MP4", alt: "Erklärung 2", desc: "Erklärung Halbe Drehung", resc: "Bei der halben Drehung wird an den Füssen ein Klammergriff verwendet, um den Turnenden so ein Gefühl für die Drehung zu geben." },
+      { src: "/vids/SchaukelnSchwingen/Schritt4erkl3.MP4", alt: "Erklärung 3", desc: "Erklärung Sturzhang", resc: "Beim Sturzhang wird der Drehgriff verwendet, um den Schwung zu verstärken." }
     ],
   }
 ];
@@ -113,7 +113,7 @@ export default function Page() {
           </div>
         </div>
         <div className="abme">
-          <h2>Materialliste:</h2>
+          <h2>Materialliste</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             <b>Station 1:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x Barren</li>
