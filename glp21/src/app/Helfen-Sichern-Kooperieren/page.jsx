@@ -113,12 +113,12 @@ export default function Page() {
           <h2>Materialliste:</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             <b>Station 1:</b> <br />
+            <li style={{ marginLeft: '24px' }}>Sprossenwand</li>
             <li style={{ marginLeft: '24px' }}>4x dünne Matten (Leichtturnmatten)</li>
             <b>Station 2:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x Reck</li>
             <li style={{ marginLeft: '24px' }}>3x dünne Matten (Leichtturnmatten)</li>
             <b>Station 3:</b> <br />
-            <li style={{ marginLeft: '24px' }}>Sprossenwand</li>
             <li style={{ marginLeft: '24px' }}>4x dünne Matten (Leichtturnmatten)</li>
             <b>Station 4:</b> <br />
             <li style={{ marginLeft: '24px' }}>1x Schulstufenbarren</li>
