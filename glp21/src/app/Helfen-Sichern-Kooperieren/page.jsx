@@ -132,7 +132,7 @@ export default function Page() {
         <summary style={{ fontSize: 'x-Large' }}>Übungen Station 1</summary>
         <div className="flex-container">
           <div className="HnI" >
-            <h2>Boden</h2>
+            <h2>Boden mit einer Sprossenwand</h2>
             <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={stepsData[0].image1} alt="Station 1" />
             </div>
@@ -178,7 +178,7 @@ export default function Page() {
         <summary style={{ fontSize: 'x-Large' }}>Übungen Station 3</summary>
         <div className="flex-container">
           <div className="HnI" >
-            <h2>Boden mit einer Sprossenwand</h2>
+            <h2>Boden</h2>
             <div style={{ whiteSpace: "pre-line", fontSize: "18px", display: "flex", flexDirection: "column", alignItems: "center" }}>
               <img src={stepsData[0].image3} alt="Station 3" />
             </div>
