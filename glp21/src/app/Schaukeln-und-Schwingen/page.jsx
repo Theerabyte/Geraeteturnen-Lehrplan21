@@ -18,7 +18,7 @@ const stepsData = [
       { src: "/vids/SchaukelnSchwingen/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Vor- und Rückschweben", resc: "einfach: Vor- und Rückschweben" },
       { src: "/vids/SchaukelnSchwingen/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Grätschwinkel mit Vorschwung", resc: "mittel: Grätschwinkel mit Vorschwung" },
       { src: "/vids/SchaukelnSchwingen/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Rückschwung mit Grätschwinkel", resc: "schwer: Rückschwung mit Grätschwinkel" },
-      { src: "/vids/SchaukelnSchwingen/Schritt2erkl.MP4", alt: "Erklärung", desc: "Erklärung", resc: "Das Halten kann hier auf dem Schwedenkasten gemacht werden. Hierbei sollte ein Stützgriff verwendet werden. Wichtig, nicht an den Gelenken stützen, sondern nahe am Körper halten." }
+      { src: "/vids/SchaukelnSchwingen/Schritt2erkl.MP4", alt: "Erklärung", desc: "Erklärung", resc: "Das Halten kann hier auf dem Schwedenkasten gemacht werden. Hierbei sollte ein Stützgriff verwendet werden. Wichtig: Nicht an den Gelenken stützen, sondern nahe am Körper halten." }
     ],
     image3: "/vids/SchaukelnSchwingen/Schritt3bild.JPEG",
     items3: [
@@ -109,7 +109,7 @@ export default function Page() {
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
             Die Gerätebahn gehört zu der Kategorie «Schaukeln und Schwingen» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
             <br /><b>Sicherheitshinweis:</b><br />
-            Wichtig zu beachten ist, dass während dem Schwingen an den Ringen, nichts verstellt wird. Beim hohen Reck kann für die höhere Sicherheit Magnesium verwendet werden.
+            Wichtig zu beachten ist, dass während dem Schwingen an den Ringen nichts verstellt wird. Beim hohen Reck kann für die höhere Sicherheit Magnesium verwendet werden.
           </div>
         </div>
         <div className="abme">

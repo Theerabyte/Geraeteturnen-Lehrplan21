@@ -7,7 +7,7 @@ const stepsData = [
     image1: "/vids/RollenD/Schritt1bild.JPEG",
     items1: [
       { src: "/vids/RollenD/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts", resc: "einfach: Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts" },
-      { src: "/vids/RollenD/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Feldaufschwung mit Stütz vorlings am hohen Holm, Hinuntergleiten gebückt über niederen Holm in Hockstand", resc: "mittel: Feldaufschwung mit Stütz vorlings am hohen Holm, Hinuntergleiten gebückt über niederen Holm in Hockstand" },
+      { src: "/vids/RollenD/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Feldaufschwung mit Stütz vorlings am hohen Holmen, Hinuntergleiten gebückt über niederen Holm in Hockstand", resc: "mittel: Feldaufschwung mit Stütz vorlings am hohen Holm, Hinuntergleiten gebückt über niederen Holm in Hockstand" },
       { src: "/vids/RollenD/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm", resc: "schwer: Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm" },
       { src: "/vids/RollenD/Schritt1erkl1.MP4", alt: "Erklärung 1", desc: "Erklärung Felgaufzug", resc: "Beim Felgaufzug wird ein Drehgriff verwendet. So kann mit einer Hand gestützt und mit der anderen dem Bein Schwung gegeben werden. Beim Abrollen verwendet man dann den Klammergriff." },
       { src: "/vids/RollenD/Schritt1erkl2.MP4", alt: "Erklärung 2", desc: "Erklärung Felgaufzug am oberen Holmen", resc: "Beim Felgaufzug am hohen Holmen wird ebenfalls ein Drehgriff verwendet, zusätzlich kann durch den Stützgriff geholfen werden, damit die Stange erreicht wird." }
@@ -19,7 +19,7 @@ const stepsData = [
       { src: "/vids/RollenD/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Bauchwelle", resc: "schwer: Bauchwelle" },
       { src: "/vids/RollenD/Schritt2erkl1.MP4", alt: "Erklärung Felgaufzug", desc: "Erklärung 1", resc: "Beim Felgaufzug am Reck wird der Drehgriff verwendet, damit mit dem Schwung geholfen werden kann." },
       { src: "/vids/RollenD/Schritt2erkl2.MP4", alt: "Erklärung Bauchwelle", desc: "Erklärung 2", resc: "Bei der Bauchwelle wird ein Stützgriff verwendet, weil so die Turnenden an der Stange bleiben." },
-      { src: "/vids/RollenD/Schritt2erkl3.MP4", alt: "Erklärung Ballübung", desc: "Erklärung 3", resc: "Selbständig können Kindern den Felgaufzug machen, indem sie einen Gymnastikball zur Hilfe nehmen." }
+      { src: "/vids/RollenD/Schritt2erkl3.MP4", alt: "Erklärung Ballübung", desc: "Erklärung 3", resc: "Selbstständig können Kindern den Felgaufzug machen, indem sie einen Gymnastikball zur Hilfe nehmen." }
     ],
     image3: "/vids/RollenD/Schritt3bild.JPEG",
     items3: [
