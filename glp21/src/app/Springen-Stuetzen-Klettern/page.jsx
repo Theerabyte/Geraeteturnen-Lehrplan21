@@ -106,7 +106,7 @@ export default function Page() {
         <div className="abme">
           <h2>Informationen zur Bahn</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-            Die Gerätebahn gehört zu der Kategorie «Springen, Stützen und Klettern» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
+            Die Gerätebahn gehört zur Kategorie «Springen, Stützen und Klettern» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
             <br /><b>Sicherheitshinweis:</b><br />
             Wichtig zu beachten ist, dass die Sprossenwand und der Barren kontrolliert werden, ob diese fest stehen. Beim Minitramp kann die Höhe variiert werden.
           </div>

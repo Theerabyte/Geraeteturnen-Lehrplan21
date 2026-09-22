@@ -103,7 +103,7 @@ export default function Page() {
         <div className="abme">
           <h2>Informationen zur Bahn</h2>
           <div style={{ whiteSpace: "pre-line", fontSize: "18px" }}>
-            Die Gerätebahn gehört zu der Kategorie «Beweglichkeit und Kraft» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
+            Die Gerätebahn gehört zur Kategorie «Beweglichkeit und Kraft» im Lehrplan 21 und deckt diese Kompetenzbereiche ab.<br />
             <br /><b>Sicherheitshinweis:</b><br />
             Wichtig zu beachten ist, dass bei der Station 4 immer eine erwachsene Person für die Sicherheit der Turnenden anwesend ist.
           </div>
