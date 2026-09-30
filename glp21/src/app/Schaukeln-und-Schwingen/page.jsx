@@ -9,9 +9,9 @@ const stepsData = [
       { src: "/vids/SchaukelnSchwingen/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Rückschwung und Vorschwung", resc: "einfach: Rückschwung und Vorschwung" },
       { src: "/vids/SchaukelnSchwingen/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Rückschwung und Vorschwung mit Grätschsitz", resc: "mittel: Rückschwung und Vorschwung mit Grätschsitz" },
       { src: "/vids/SchaukelnSchwingen/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Rückschwung und Vorschwung mit Wende zum Niedersprung", resc: "schwer: Rückschwung und Vorschwung mit Wende zum Niedersprung" },
-      { src: "/vids/SchaukelnSchwingen/Schritt1erkl1.MP4", alt: "Erklärung Schwingen", desc: "Erklärung Schwingen", resc: "Beim Schwingen am Barren kann der turnenden Person geholfen werden, indem eine Hand an der Schulter stabilisiert und die andere den Schwung kontrolliert." },
+      { src: "/vids/SchaukelnSchwingen/schritt1erkl1.MP4", alt: "Erklärung Schwingen", desc: "Erklärung Schwingen", resc: "Beim Schwingen am Barren kann der turnenden Person geholfen werden, indem eine Hand an der Schulter stabilisiert und die andere den Schwung kontrolliert." },
       { src: "/vids/SchaukelnSchwingen/Schritt1erkl2.MP4", alt: "Erklärung Niedersprung", desc: "Erklärung Niedersprung", resc: "Beim Niedersprung wird ein Stützgriff verwendet, um die Turnenden dabei richtig zu leiten. So erfolgt ein verlangsamter Niedersprung." },
-      { src: null, alt: "Erklärung 3", desc: "Erklärung 3", resc: "Tipp: Wenn das Schwingen noch unsicher ist, kann der Niedersprung auch aus dem Stand langsam geübt werden. Auch hier wird ein Stützgriff empfohlen." }
+      { src: null, alt: "Erklärung", desc: "Erklärung", resc: "Tipp: Wenn das Schwingen noch unsicher ist, kann der Niedersprung auch aus dem Stand langsam geübt werden. Auch hier wird ein Stützgriff empfohlen." }
     ],
     image2: "/vids/SchaukelnSchwingen/Schritt2bild.JPEG",
     items2: [

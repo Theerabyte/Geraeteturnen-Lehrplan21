@@ -15,7 +15,7 @@ const stepsData = [
     items2: [
       { src: "/vids/BeweglichkeitKraft/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Vorhandstütz", resc: "einfach: Vorhandstütz" },
       { src: "/vids/BeweglichkeitKraft/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Rückhandstütz", resc: "mittel: Rückhandstütz" },
-      { src: "/vids/BeweglichkeitKraft/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Liegestützen", resc: "schwer: Liegestützen" },
+      { src: "/vids/BeweglichkeitKraft/schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Liegestützen", resc: "schwer: Liegestützen" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Bei allen 3 Übungen muss von den Turnenden aus den Schultern gestossen werden, dabei muss der Bauch angespannt sein." }
     ],
     image3: "/vids/BeweglichkeitKraft/Schritt3bild.JPEG",

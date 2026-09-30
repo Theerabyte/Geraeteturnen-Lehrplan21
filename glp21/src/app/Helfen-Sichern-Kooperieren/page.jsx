@@ -21,7 +21,7 @@ const stepsData = [
     ],
     image3: "/vids/HelfenSichern/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/HelfenSichern/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Handstand", resc: "einfach: Handstand" },
+      { src: "/vids/HelfenSichern/schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Handstand", resc: "einfach: Handstand" },
       { src: "/vids/HelfenSichern/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Handstandabrollen", resc: "mittel: Handstandabrollen" },
       { src: "/vids/HelfenSichern/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Kopfstand", resc: "schwer: Kopfstand" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Hier sollen die Kinder Klammergriffe verwenden, so haben sie optimalen Halt." }
@@ -91,8 +91,8 @@ export default function Page() {
       <div className="flex-container">
         <div className="ame">
           <h2>Bahnenbild</h2>
-          <a href="/vids/HelfenSichern/GanzeBahn.jpeg" target="_blank">
-            <img src="/vids/HelfenSichern/GanzeBahn.jpeg" alt="Gesamte Bahn" />
+          <a href="/vids/HelfenSichern/GanzeBahn.jpg" target="_blank">
+            <img src="/vids/HelfenSichern/GanzeBahn.jpg" alt="Gesamte Bahn" />
           </a>
           <div style={{ display: "flex", flexDirection: "row" }}>
             <p style={{ margin: "0 2.75rem" }}>Station 1</p> <p style={{ margin: "0 2.75rem" }}>Station 2</p> <p style={{ margin: "0 2.75rem" }}>Station 3</p> <p style={{ margin: "0 2.75rem" }}>Station 4</p>
