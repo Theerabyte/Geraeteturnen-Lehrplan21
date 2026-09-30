@@ -35,7 +35,7 @@ function Mat() {
 						<h2>Infos</h2>
 						<br />
 						<h3>Wer bin ich? </h3>
-						<p>Ich bin Sophie Hafner und diese Website ist mein Maturaarbeitsprojekt. Ich turne im Turn- und Sportverein Vechigen und leite dort wöchentlich Kindertrainings. Auf die Idee dieser Maturaarbeit bin ich gekommen, weil sehr viele Kinder in meinem Umfeld keine ausrecihende Körperspannung mehr besitzen. Mit meiner Lehrkraft sind wir dann auf die Idee dieser Website gekommen.</p>
+						<p>Ich bin Sophie Hafner und diese Website ist mein Maturaarbeitsprojekt. Ich turne im Turn- und Sportverein Vechigen und leite dort wöchentlich Kindertrainings. Auf die Idee dieser Maturaarbeit bin ich gekommen, weil sehr viele Kinder in meinem Umfeld keine ausreichende Körperspannung mehr besitzen. Mit meiner Lehrkraft sind wir dann auf die Idee dieser Website gekommen.</p>
 						<br />
 						<h3>Warum diese Website? </h3>
 						<p>Die Website soll Lehrkräften helfen, ihren Unterricht sinnvoll zu planen, dabei soll die Sicherheit und Einfachheit der Übungen im Fokus stehen. Zusätzlich soll so das Geräteturnen wieder mehr im Schulsport unterrichtet werden. <br /> Im Zusammenhang mit dem Lehrplan 21 sind die Übungen anwendbar für Kinder von der 3. bis zur 6. Klasse, somit im Zyklus 2.</p>
