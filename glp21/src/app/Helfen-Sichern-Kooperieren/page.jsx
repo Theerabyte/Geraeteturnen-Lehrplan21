@@ -6,31 +6,31 @@ const stepsData = [
   {
     image1: "/vids/HelfenSichern/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/HelfenSichern/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Türmli", resc: "einfach: Türmli" },
-      { src: "/vids/HelfenSichern/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Flieger", resc: "mittel: Flieger" },
-      { src: "/vids/HelfenSichern/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Sternheber", resc: "schwer: Sternheber" },
+      { src: "/vids/HelfenSichern/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Türmli", resc: "Einfach: Türmli" },
+      { src: "/vids/HelfenSichern/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Flieger", resc: "Mittel: Flieger" },
+      { src: "/vids/HelfenSichern/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Sternheber", resc: "Schwer: Sternheber" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Mit mutigen Kindern kann auch der freihändige Flieger geübt werden. Hier sollte eine Lehrperson das Kind nahe am Körperschwerpunkt halten." }
 
     ],
     image2: "/vids/HelfenSichern/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/HelfenSichern/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Vorschwung", resc: "einfach: Vorschwung" },
-      { src: "/vids/HelfenSichern/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Bauchwelle", resc: "mittel: Bauchwelle" },
-      { src: "/vids/HelfenSichern/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Felgaufzug", resc: "schwer: Felgaufzug" },
+      { src: "/vids/HelfenSichern/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Vorschwung", resc: "Einfach: Vorschwung" },
+      { src: "/vids/HelfenSichern/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Bauchwelle", resc: "Mittel: Bauchwelle" },
+      { src: "/vids/HelfenSichern/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Felgaufzug", resc: "Schwer: Felgaufzug" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Beim Vorschwung wird der Klammergriff verwendet. Bei der Bauchwelle darf das Seil nicht zu locker sein und es muss darauf geachtet werden, dass es in die richtige Richtung gedreht wird. Beim Felgaufzug sollen die Kinder den Drehgriff verwenden." }
     ],
     image3: "/vids/HelfenSichern/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/HelfenSichern/schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Handstand", resc: "einfach: Handstand" },
-      { src: "/vids/HelfenSichern/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Handstandabrollen", resc: "mittel: Handstandabrollen" },
-      { src: "/vids/HelfenSichern/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Kopfstand", resc: "schwer: Kopfstand" },
+      { src: "/vids/HelfenSichern/schritt1einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Handstand", resc: "Einfach: Handstand" },
+      { src: "/vids/HelfenSichern/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Handstandabrollen", resc: "Mittel: Handstandabrollen" },
+      { src: "/vids/HelfenSichern/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Kopfstand", resc: "Schwer: Kopfstand" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Hier sollen die Kinder Klammergriffe verwenden, so haben sie optimalen Halt." }
     ],
     image4: "/vids/HelfenSichern/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/HelfenSichern/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Handstandabrollen", resc: "einfach: Handstandabrollen" },
-      { src: "/vids/HelfenSichern/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Handstandaufgang", resc: "mittel: Handstandaufgang" },
-      { src: "/vids/HelfenSichern/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Feldaufschwung mit Stütz vorlings am hohen Holm", resc: "schwer: Feldaufschwung mit Stütz vorlings am hohen Holm" },
+      { src: "/vids/HelfenSichern/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Handstandabrollen", resc: "Einfach: Handstandabrollen" },
+      { src: "/vids/HelfenSichern/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Handstandaufgang", resc: "Mittel: Handstandaufgang" },
+      { src: "/vids/HelfenSichern/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Feldaufschwung mit Stütz vorlings am hohen Holm", resc: "Schwer: Feldaufschwung mit Stütz vorlings am hohen Holm" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Die Kinder verwenden hier hauptsächlich Klammergriffe, ausser beim Felgaufzug, da empfiehlt sich ein Drehgriff." }
     ],
   }

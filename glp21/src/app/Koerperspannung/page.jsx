@@ -6,31 +6,31 @@ const stepsData = [
   {
     image1: "/vids/Koerperspannung/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/Koerperspannung/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Spagetti", resc: "einfach: Spagetti" },
-      { src: "/vids/Koerperspannung/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Drehen auf dem Rücken", resc: "mittel: Drehen auf dem Rücken" },
-      { src: "/vids/Koerperspannung/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Schiffli", resc: "schwer: Schiffli" },
+      { src: "/vids/Koerperspannung/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Spagetti", resc: "Einfach: Spagetti" },
+      { src: "/vids/Koerperspannung/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Drehen auf dem Rücken", resc: "Mittel: Drehen auf dem Rücken" },
+      { src: "/vids/Koerperspannung/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Schiffli", resc: "Schwer: Schiffli" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Beim C+ sollten die Schultern immer in der Luft sein, so kann besser gedreht werden." }
     ],
     image2: "/vids/Koerperspannung/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/Koerperspannung/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Strecksprünge", resc: "einfach: Strecksprünge" },
-      { src: "/vids/Koerperspannung/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Strecksprünge mit einem Ball", resc: "mittel: Strecksprünge mit einem Ball" },
-      { src: "/vids/Koerperspannung/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Handstand", resc: "schwer: Handstand" },
+      { src: "/vids/Koerperspannung/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Strecksprünge", resc: "Einfach: Strecksprünge" },
+      { src: "/vids/Koerperspannung/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Strecksprünge mit einem Ball", resc: "Mittel: Strecksprünge mit einem Ball" },
+      { src: "/vids/Koerperspannung/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Handstand", resc: "Schwer: Handstand" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Hier ist wichtig, dass die Turnenden nicht die Kontrolle verlieren. Bei unsicheren Kindern kann zu Beginn ein Reuterbrett verwendet werden." }
     ],
     image3: "/vids/Koerperspannung/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/Koerperspannung/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Schaukeln im Stand", resc: "einfach: Schaukeln im Stand" },
-      { src: "/vids/Koerperspannung/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Beidbeiniges Schaukeln auf dem Kasten", resc: "mittel: Beidbeiniges Schaukeln auf dem Kasten" },
-      { src: "/vids/Koerperspannung/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Vor- und Rückschaukeln", resc: "schwer: Vor- und Rückschaukeln" },
+      { src: "/vids/Koerperspannung/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Schaukeln im Stand", resc: "Einfach: Schaukeln im Stand" },
+      { src: "/vids/Koerperspannung/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Beidbeiniges Schaukeln auf dem Kasten", resc: "Mittel: Beidbeiniges Schaukeln auf dem Kasten" },
+      { src: "/vids/Koerperspannung/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Vor- und Rückschaukeln", resc: "Schwer: Vor- und Rückschaukeln" },
       { src: "/vids/Koerperspannung/Schritt3erkl1.MP4", alt: "Erklärung 1", desc: "Erklärung Schaukeln im Stand", resc: "Beim Schaukeln im Stand sollte darauf geachtet werden, dass das Kurbet immer gleich abläuft. Durch Stützgriffe kann das kontrolliert werden." },
       { src: "/vids/Koerperspannung/Schritt3erkl2.MP4", alt: "Erklärung 2", desc: "Erklärung Schaukeln auf dem Kasten", resc: "Damit beim Schwingen auf dem Kasten auch ein schönes C1 ausgeführt wird, kann im Vorschwung die turnende Person gehalten werden. Dafür benutzt man ein Stützgriff." }
     ],
     image4: "/vids/Koerperspannung/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/Koerperspannung/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Liegestützdrehen", resc: "einfach: Liegestützdrehen" },
-      { src: "/vids/Koerperspannung/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Spagetti stehen", resc: "mittel: Spagetti stehen" },
-      { src: "/vids/Koerperspannung/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Liegestützkampf", resc: "schwer: Liegestützkampf" },
+      { src: "/vids/Koerperspannung/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Liegestützdrehen", resc: "Einfach: Liegestützdrehen" },
+      { src: "/vids/Koerperspannung/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Spagetti stehen", resc: "Mittel: Spagetti stehen" },
+      { src: "/vids/Koerperspannung/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Liegestützkampf", resc: "Schwer: Liegestützkampf" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wichtig ist, dass die Kinder nicht durchhängen in den Körperpositionen, es soll also ein schönes I zu sehen sein." }
     ],
   }

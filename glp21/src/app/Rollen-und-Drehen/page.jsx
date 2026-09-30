@@ -6,34 +6,34 @@ const stepsData = [
   {
     image1: "/vids/RollenD/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/RollenD/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts", resc: "einfach: Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts" },
-      { src: "/vids/RollenD/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Feldaufschwung mit Stütz vorlings am hohen Holmen, Hinuntergleiten gebückt über niederen Holm in Hockstand", resc: "mittel: Feldaufschwung mit Stütz vorlings am hohen Holm, Hinuntergleiten gebückt über niederen Holm in Hockstand" },
-      { src: "/vids/RollenD/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm", resc: "schwer: Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm" },
+      { src: "/vids/RollenD/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts", resc: "Einfach: Felgaufzug in den Stütz am unteren Holmen und Rolle vorwärts" },
+      { src: "/vids/RollenD/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Feldaufschwung mit Stütz vorlings am hohen Holmen, Hinuntergleiten gebückt über niederen Holm in Hockstand", resc: "Mittel: Feldaufschwung mit Stütz vorlings am hohen Holm, Hinuntergleiten gebückt über niederen Holm in Hockstand" },
+      { src: "/vids/RollenD/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm", resc: "Schwer: Felgaufzug am hohen Holmen mit Felgabschwung vorwärts gespreizt am hohen Holm" },
       { src: "/vids/RollenD/Schritt1erkl1.MP4", alt: "Erklärung 1", desc: "Erklärung Felgaufzug", resc: "Beim Felgaufzug wird ein Drehgriff verwendet. So kann mit einer Hand gestützt und mit der anderen dem Bein Schwung gegeben werden. Beim Abrollen verwendet man dann den Klammergriff." },
       { src: "/vids/RollenD/Schritt1erkl2.MP4", alt: "Erklärung 2", desc: "Erklärung Felgaufzug am oberen Holmen", resc: "Beim Felgaufzug am hohen Holmen wird ebenfalls ein Drehgriff verwendet, zusätzlich kann durch den Stützgriff geholfen werden, damit die Stange erreicht wird." }
     ],
     image2: "/vids/RollenD/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/RollenD/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Felge vorwärts", resc: "einfach: Felge vorwärts" },
-      { src: "/vids/RollenD/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Felgaufzug", resc: "mittel: Felgaufzug" },
-      { src: "/vids/RollenD/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Bauchwelle", resc: "schwer: Bauchwelle" },
+      { src: "/vids/RollenD/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Felge vorwärts", resc: "Einfach: Felge vorwärts" },
+      { src: "/vids/RollenD/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Felgaufzug", resc: "Mittel: Felgaufzug" },
+      { src: "/vids/RollenD/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Bauchwelle", resc: "Schwer: Bauchwelle" },
       { src: "/vids/RollenD/Schritt2erkl1.MP4", alt: "Erklärung Felgaufzug", desc: "Erklärung 1", resc: "Beim Felgaufzug am Reck wird der Drehgriff verwendet, damit mit dem Schwung geholfen werden kann." },
       { src: "/vids/RollenD/Schritt2erkl2.MP4", alt: "Erklärung Bauchwelle", desc: "Erklärung 2", resc: "Bei der Bauchwelle wird ein Stützgriff verwendet, weil so die Turnenden an der Stange bleiben." },
       { src: "/vids/RollenD/Schritt2erkl3.MP4", alt: "Erklärung Ballübung", desc: "Erklärung 3", resc: "Selbstständig können Kindern den Felgaufzug machen, indem sie einen Gymnastikball zur Hilfe nehmen." }
     ],
     image3: "/vids/RollenD/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/RollenD/Schritt3einfach.MP4", alt: "Übung Einfach 1", desc: "einfach: Rolle vorwärts", resc: "einfach: Rolle vorwärts" },
-      { src: "/vids/RollenD/Schritt3einfach2.MP4", alt: "Übung Einfach 2", desc: "einfach: Rolle rückwärts", resc: "mittel: Rolle rückwärts" },
-      { src: "/vids/RollenD/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Rad auf beide Seiten", resc: "mittel: Rad auf beide Seiten" },
-      { src: "/vids/RollenD/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Handstandabrollen", resc: "schwer: Handstandabrollen" },
+      { src: "/vids/RollenD/Schritt3einfach.MP4", alt: "Übung Einfach 1", desc: "Einfach: Rolle vorwärts", resc: "Einfach: Rolle vorwärts" },
+      { src: "/vids/RollenD/Schritt3einfach2.MP4", alt: "Übung Einfach 2", desc: "Einfach: Rolle rückwärts", resc: "Mittel: Rolle rückwärts" },
+      { src: "/vids/RollenD/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Rad auf beide Seiten", resc: "Mittel: Rad auf beide Seiten" },
+      { src: "/vids/RollenD/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Handstandabrollen", resc: "Schwer: Handstandabrollen" },
       { src: "/vids/RollenD/Schritt3erkl.MP4", alt: "Erklärung Handstandabrollen", desc: "Erklärung Handstandabrollen", resc: "Beim Handstandabrollen wird ein Klammergriff verwendet, damit die Turnenden gut im Handstand stehen können. Tipp: Beim Abrollen kann langsam mit nach unten gegangen werden. → Wichtig, immer den Kopf einziehen." }
     ],
     image4: "/vids/RollenD/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/RollenD/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Rolle aus dem Stand", resc: "einfach: Rolle aus dem Stand" },
-      { src: "/vids/RollenD/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Sprungrolle", resc: "mittel: Sprungrolle" },
-      { src: "/vids/RollenD/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Rückwärtsrolle", resc: "schwer: Rückwärtsrolle" },
+      { src: "/vids/RollenD/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Rolle aus dem Stand", resc: "Einfach: Rolle aus dem Stand" },
+      { src: "/vids/RollenD/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Sprungrolle", resc: "Mittel: Sprungrolle" },
+      { src: "/vids/RollenD/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Rückwärtsrolle", resc: "Schwer: Rückwärtsrolle" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wichtig zu beachten ist, dass das Kinn immer bei der Brust ist, so wird das Rollen einfacher." }
     ],
   }

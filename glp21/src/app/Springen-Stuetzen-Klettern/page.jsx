@@ -6,31 +6,31 @@ const stepsData = [
   {
     image1: "/vids/SpringenSK/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/SpringenSK/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Strecksprünge", resc: "einfach: Strecksprünge" },
-      { src: "/vids/SpringenSK/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Strecksprünge mit halber Drehung", resc: "mittel: Strecksprünge mit halber Drehung" },
-      { src: "/vids/SpringenSK/schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Strecksprünge mit Päckli- und Grätschwinkelsprung", resc: "schwer: Strecksprünge mit Päckli- und Grätschwinkelsprung" },
+      { src: "/vids/SpringenSK/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Strecksprünge", resc: "Einfach: Strecksprünge" },
+      { src: "/vids/SpringenSK/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Strecksprünge mit halber Drehung", resc: "Mittel: Strecksprünge mit halber Drehung" },
+      { src: "/vids/SpringenSK/schritt1schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Strecksprünge mit Päckli- und Grätschwinkelsprung", resc: "Schwer: Strecksprünge mit Päckli- und Grätschwinkelsprung" },
       { src: "/vids/SpringenSK/Schritt1erkl.MP4", alt: "Erklärung Strecksprünge", desc: "Erklärung Strecksprünge", resc: "Durch den Klammergriff nahe am Körperschwerpunkt kann bei Sprüngen geholfen werden." }
     ],
     image2: "/vids/SpringenSK/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/SpringenSK/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Durchstützen", resc: "einfach: Durchstützen" },
-      { src: "/vids/SpringenSK/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Hoch- und Runterdrücken", resc: "mittel: Hoch- und Runterdrücken" },
-      { src: "/vids/SpringenSK/Schritt2schwer1.MP4", alt: "Übung Schwer 1", desc: "schwer: Winkelstütz", resc: "schwer: Winkelstütz" },
-      { src: "/vids/SpringenSK/Schritt2schwer2.MP4", alt: "Übung Schwer 2", desc: "schwer: Sturzhang", resc: "schwer: Sturzhang" },
+      { src: "/vids/SpringenSK/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Durchstützen", resc: "Einfach: Durchstützen" },
+      { src: "/vids/SpringenSK/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Hoch- und Runterdrücken", resc: "Mittel: Hoch- und Runterdrücken" },
+      { src: "/vids/SpringenSK/Schritt2schwer1.MP4", alt: "Übung Schwer 1", desc: "Schwer: Winkelstütz", resc: "Schwer: Winkelstütz" },
+      { src: "/vids/SpringenSK/Schritt2schwer2.MP4", alt: "Übung Schwer 2", desc: "Schwer: Sturzhang", resc: "Schwer: Sturzhang" },
       { src: "/vids/SpringenSK/Schritt2erkl.MP4", alt: "Erklärung Winkelstütz", desc: "Erklärung Winkelstütz", resc: "Bei dem Winkelstütz wird ein Stützgriff verwendet, so können die Beine gespannt bleiben." }
     ],
     image3: "/vids/SpringenSK/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/SpringenSK/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Klettern und Bändeli mit der Hand berühren", resc: "einfach: Klettern und Bändeli mit der Hand berühren" },
-      { src: "/vids/SpringenSK/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Klettern und Bändeli mit dem Fuss berühren mit Drehungen", resc: "mittel: Klettern und Bändeli mit dem Fuss berühren mit Drehungen" },
-      { src: "/vids/SpringenSK/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Im Handstand laufen und Bändeli berühren", resc: "schwer: Im Handstand laufen und Bändeli berühren" },
+      { src: "/vids/SpringenSK/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Klettern und Bändeli mit der Hand berühren", resc: "Einfach: Klettern und Bändeli mit der Hand berühren" },
+      { src: "/vids/SpringenSK/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Klettern und Bändeli mit dem Fuss berühren mit Drehungen", resc: "Mittel: Klettern und Bändeli mit dem Fuss berühren mit Drehungen" },
+      { src: "/vids/SpringenSK/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Im Handstand laufen und Bändeli berühren", resc: "Schwer: Im Handstand laufen und Bändeli berühren" },
       { src: null, alt: "Erklärungen", desc: "Tipp", resc: "Die Kinder können selber auch Parcours zusammenstellen, indem sie verschiedene Farben der Bändeli wählen." }
     ],
     image4: "/vids/SpringenSK/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/SpringenSK/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Strecksprung", resc: "einfach: Strecksprung" },
-      { src: "/vids/SpringenSK/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Sprungrolle", resc: "mittel: Sprungrolle" },
-      { src: "/vids/SpringenSK/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Salto vorwärts", resc: "schwer: Salto vorwärts" },
+      { src: "/vids/SpringenSK/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Strecksprung", resc: "Einfach: Strecksprung" },
+      { src: "/vids/SpringenSK/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Sprungrolle", resc: "Mittel: Sprungrolle" },
+      { src: "/vids/SpringenSK/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Salto vorwärts", resc: "Schwer: Salto vorwärts" },
       { src: "/vids/SpringenSK/Schritt4erkl1.MP4", alt: "Erklärung 1", desc: "Erklärung Strecksprung", resc: "Damit die Turnenden im Strecksprung höher springen, kann anhand einer Angel der Fokus auf die Höhe gesetzt werden." },
       { src: "/vids/SpringenSK/Schritt4erkl2.MP4", alt: "Erklärung 2", desc: "Erklärung Sprungrolle", resc: "Bei der Sprungrolle kann dasselbe gemacht werden, indem eine Hand als Höhe dient." },
       { src: "/vids/SpringenSK/Schritt4erkl3.MP4", alt: "Erklärung 3", desc: "Erklärung Salto", resc: "Beim Halten des Saltos wird ein Kreuzgriff verwendet, so kann eine Drehung sicher ablaufen." }

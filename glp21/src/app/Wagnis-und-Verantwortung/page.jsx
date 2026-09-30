@@ -6,30 +6,30 @@ const stepsData = [
   {
     image1: "/vids/WagnisVerantwortung/Schritt1bild.JPEG",
     items1: [
-      { src: "/vids/WagnisVerantwortung/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "einfach: Klettern auf allen Vieren", resc: "einfach: Klettern auf allen Vieren" },
-      { src: "/vids/WagnisVerantwortung/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "mittel: Klettern mit Niedersprung", resc: "mittel: Klettern mit Niedersprung" },
-      { src: "/vids/WagnisVerantwortung/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "schwer: Hochhangeln mit Niedersprung", resc: "schwer: Hochhangeln mit Niedersprung" },
+      { src: "/vids/WagnisVerantwortung/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Klettern auf allen Vieren", resc: "Einfach: Klettern auf allen Vieren" },
+      { src: "/vids/WagnisVerantwortung/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Klettern mit Niedersprung", resc: "Mittel: Klettern mit Niedersprung" },
+      { src: "/vids/WagnisVerantwortung/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Hochhangeln mit Niedersprung", resc: "Schwer: Hochhangeln mit Niedersprung" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wichtig ist, dass die Kinder beim Niedersprung erst nach unten schauen. Tipp: Bei rutschigen Händen ist Magnesium hilfreich." }
     ],
     image2: "/vids/WagnisVerantwortung/Schritt2bild.JPEG",
     items2: [
-      { src: "/vids/WagnisVerantwortung/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "einfach: Streckspünge mit Pausen", resc: "einfach: Streckspünge mit Pausen" },
-      { src: "/vids/WagnisVerantwortung/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "mittel: Strecksprünge", resc: "mittel: Strecksprünge" },
-      { src: "/vids/WagnisVerantwortung/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "schwer: Strecksprünge mit einer Sprungrolle", resc: "schwer: Strecksprünge mit einer Sprungrolle" },
+      { src: "/vids/WagnisVerantwortung/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Streckspünge mit Pausen", resc: "Einfach: Streckspünge mit Pausen" },
+      { src: "/vids/WagnisVerantwortung/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Strecksprünge", resc: "Mittel: Strecksprünge" },
+      { src: "/vids/WagnisVerantwortung/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Strecksprünge mit einer Sprungrolle", resc: "Schwer: Strecksprünge mit einer Sprungrolle" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Bei unsicheren Kindern kann durch eine Hand das Vertrauen gefördert werden." }
     ],
     image3: "/vids/WagnisVerantwortung/Schritt3bild.JPEG",
     items3: [
-      { src: "/vids/WagnisVerantwortung/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "einfach: Rutschen im Päckli mit einer Rolle", resc: "einfach: Rutschen im Päckli mit einer Rolle" },
-      { src: "/vids/WagnisVerantwortung/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "mittel: Rutschen auf dem Rücken mit einer Rolle", resc: "mittel: Rutschen auf dem Rücken mit einer Rolle" },
-      { src: "/vids/WagnisVerantwortung/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "schwer: Rutschen auf dem Bauch mit einer Rolle", resc: "schwer: Rutschen auf dem Bauch mit einer Rolle" },
+      { src: "/vids/WagnisVerantwortung/Schritt3einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Rutschen im Päckli mit einer Rolle", resc: "Einfach: Rutschen im Päckli mit einer Rolle" },
+      { src: "/vids/WagnisVerantwortung/Schritt3mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Rutschen auf dem Rücken mit einer Rolle", resc: "Mittel: Rutschen auf dem Rücken mit einer Rolle" },
+      { src: "/vids/WagnisVerantwortung/Schritt3schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Rutschen auf dem Bauch mit einer Rolle", resc: "Schwer: Rutschen auf dem Bauch mit einer Rolle" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Durch das Verstellen der Höhe des Kastens kann das Bänkli steiler gemacht werden." }
     ],
     image4: "/vids/WagnisVerantwortung/Schritt4bild.JPEG",
     items4: [
-      { src: "/vids/WagnisVerantwortung/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "einfach: Springen im Barren", resc: "einfach: Springen im Barren" },
-      { src: "/vids/WagnisVerantwortung/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "mittel: Springen im Barren mit Niedersprung", resc: "mittel: Springen im Barren mit Niedersprung" },
-      { src: "/vids/WagnisVerantwortung/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "schwer: Durchsprung im Barren", resc: "schwer: Durchsprung im Barren" },
+      { src: "/vids/WagnisVerantwortung/Schritt4einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Springen im Barren", resc: "Einfach: Springen im Barren" },
+      { src: "/vids/WagnisVerantwortung/Schritt4mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Springen im Barren mit Niedersprung", resc: "Mittel: Springen im Barren mit Niedersprung" },
+      { src: "/vids/WagnisVerantwortung/Schritt4schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Durchsprung im Barren", resc: "Schwer: Durchsprung im Barren" },
       { src: null, alt: "Erklärungen", desc: "Erklärung", resc: "Wenn Kinder den Niedersprung das erste Mal machen, kann man für die Sicherheit eine dünne Yogamatte über den Holmen legen." }
     ],
   }
