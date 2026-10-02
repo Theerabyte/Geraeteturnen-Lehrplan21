@@ -17,9 +17,9 @@ const stepsData = [
       { src: "/vids/RollenD/Schritt2einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Felge vorwärts", resc: "Einfach: Felge vorwärts" },
       { src: "/vids/RollenD/Schritt2mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Felgaufzug", resc: "Mittel: Felgaufzug" },
       { src: "/vids/RollenD/Schritt2schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Bauchwelle", resc: "Schwer: Bauchwelle" },
-      { src: "/vids/RollenD/Schritt2erkl1.MP4", alt: "Erklärung Felgaufzug", desc: "Erklärung 1", resc: "Beim Felgaufzug am Reck wird der Drehgriff verwendet, damit mit dem Schwung geholfen werden kann." },
-      { src: "/vids/RollenD/Schritt2erkl2.MP4", alt: "Erklärung Bauchwelle", desc: "Erklärung 2", resc: "Bei der Bauchwelle wird ein Stützgriff verwendet, weil so die Turnenden an der Stange bleiben." },
-      { src: "/vids/RollenD/Schritt2erkl3.MP4", alt: "Erklärung Ballübung", desc: "Erklärung 3", resc: "Selbstständig können Kindern den Felgaufzug machen, indem sie einen Gymnastikball zur Hilfe nehmen." }
+      { src: "/vids/RollenD/Schritt2erkl1.MP4", alt: "Erklärung Felgaufzug", desc: "Erklärung Felgaufzug", resc: "Beim Felgaufzug am Reck wird der Drehgriff verwendet, damit mit dem Schwung geholfen werden kann." },
+      { src: "/vids/RollenD/Schritt2erkl2.MP4", alt: "Erklärung Bauchwelle", desc: "Erklärung Bauchwelle", resc: "Bei der Bauchwelle wird ein Stützgriff verwendet, weil so die Turnenden an der Stange bleiben." },
+      { src: "/vids/RollenD/Schritt2erkl3.MP4", alt: "Erklärung Ballübung", desc: "Erklärung Felgaufzug mit Ball", resc: "Selbstständig können Kindern den Felgaufzug machen, indem sie einen Gymnastikball zur Hilfe nehmen." }
     ],
     image3: "/vids/RollenD/Schritt3bild.JPEG",
     items3: [
