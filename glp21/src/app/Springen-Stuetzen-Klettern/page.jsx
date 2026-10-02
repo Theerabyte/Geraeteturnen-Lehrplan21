@@ -8,8 +8,8 @@ const stepsData = [
     items1: [
       { src: "/vids/SpringenSK/Schritt1einfach.MP4", alt: "Übung Einfach", desc: "Einfach: Strecksprünge", resc: "Einfach: Strecksprünge" },
       { src: "/vids/SpringenSK/Schritt1mittel.MP4", alt: "Übung Mittel", desc: "Mittel: Strecksprünge mit halber Drehung", resc: "Mittel: Strecksprünge mit halber Drehung" },
-      { src: "/vids/SpringenSK/schritt1schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Strecksprünge mit Päckli- und Grätschwinkelsprung", resc: "Schwer: Strecksprünge mit Päckli- und Grätschwinkelsprung" },
-      { src: "/vids/SpringenSK/Schritt1erkl.MP4", alt: "Erklärung Strecksprünge", desc: "Erklärung Strecksprünge", resc: "Durch den Klammergriff nahe am Körperschwerpunkt kann bei Sprüngen geholfen werden." }
+      { src: "/vids/SpringenSK/Schritt1schwer.MP4", alt: "Übung Schwer", desc: "Schwer: Strecksprünge mit Päckli- und Grätschwinkelsprung", resc: "Schwer: Strecksprünge mit Päckli- und Grätschwinkelsprung" },
+      { src: "/vids/SpringenSK/schritt1erkl.MP4", alt: "Erklärung Strecksprünge", desc: "Erklärung Strecksprünge", resc: "Durch den Klammergriff nahe am Körperschwerpunkt kann bei Sprüngen geholfen werden." }
     ],
     image2: "/vids/SpringenSK/Schritt2bild.JPEG",
     items2: [
